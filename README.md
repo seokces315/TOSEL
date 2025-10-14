@@ -1,3 +1,4 @@
+```plaintext
 AI_Module
 │
 ├── main.py                     # 진입점 : 전체 파이프라인 실행 스크립트
