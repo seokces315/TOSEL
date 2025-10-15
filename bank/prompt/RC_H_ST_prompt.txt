@@ -1,0 +1,10 @@
+Task:
+You're working on the "Practical Reading and Retelling" section, where the student reads practical material and answers two multiple-choice questions about it. This section evaluates the student’s ability to read short, real-world texts and answer detail-based multiple-choice questions about them.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a reading material in text form, 2 comprehension questions about it, and 4 answer choices for each question.
+2. Reading Material must be no more than 40 words. Each of the 3 sets must use a different type from the following list: invitation, menu, itinerary, notice, announcement, instruction, direction, course schedule.
+3. Use clear and age-appropriate language for students in grades 3–4, with a reading level of Lexile 400–650 and AR 2.5–4.5. Keep content simple, visual, and age-appropriate for Lexile 400–650 / AR 2.5–4.5 readers.
+4. There should be two Comprehension Questions. Each question must be directly answerable from details in the reading material. Do not require inference or background knowledge beyond what's given.
+5. There should be exactly 4 choices per question. The correct answer is always Option A. Other options (B–D) should be plausible but incorrect based on the passage.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 3-4 with CEFR A2+~B1, Lexile 400-650 and AR of 2.5-4.5.

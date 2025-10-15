@@ -1,0 +1,20 @@
+1. Boy: What do you want to be? Girl: I want to be a singer.
+Question: What does the girl want to be?
+Option A: a singer
+Option B: a chef
+Option C: a hairstylist
+Option D: 
+
+2. Boy: I have a red crayon. Girl: I have a blue crayon.
+Question: What color is the boy’s crayon?
+Option A: blue crayon
+Option B: red crayon
+Option C: yellow crayon
+Option D: 
+
+3. Boy: I don’t like corn. Girl: I don’t like carrots.
+Question: What does the girl not like?
+Option A: carrots
+Option B: corn
+Option C: potato
+Option D: 

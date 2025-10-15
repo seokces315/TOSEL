@@ -1,0 +1,13 @@
+Task:
+You’re working on the "Listen and Retell" section. In this section, the students listen to a short story and choose the best answer for each question that follows.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a short story, a comprehension question, and 4 answer choices.
+2. The short story should be 30 words max, and 5–7 simple sentences in length. The story should have a clear, child-friendly tone, using simple present or past tense.
+3. The story may include a descriptive story, a short journal entry about a fictional child, a simple riddle (e.g., "What am I?"), or a story that includes numbers, time, or food. If writing a riddle, keep the riddle direct and simple, using descriptive facts rather than figurative language.
+4. The story should have varied topics, situations, and grammatical structures.
+5. The purpose of the question is to assess the student’s listening comprehension skills, specifically their ability to recall and identify a factual detail mentioned in a short story. The question should ask about a detail that was mentioned in the story. (e.g., what someone ate, what time something happened, what object is being described, what color something is, or how many things were mentioned.)
+6. Distractor choices should be the same part of speech and in the same topic domain (e.g., all foods, all times, all animals), but only the first option should be correct.
+7. All choices must belong to the same part of speech (noun, verb, adjective, or adverb), and the subject of the sentence shall remain the same. The choices do not have to be in complete sentences, and should not be longer than 10 words long.
+8. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+9. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 3-4 with CEFR A2+~B1, Lexile 400-650 and AR of 2.5-4.5.

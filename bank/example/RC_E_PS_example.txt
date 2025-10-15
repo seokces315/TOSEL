@@ -1,0 +1,42 @@
+1. Passage: What am I? I live in the sea. My head is round. I can stick to the rock. Because I have strong legs. I have eight legs.
+Question1: What am I?
+Option A1: octopus
+Option B1: crab
+Option C1: shrimp
+Option D1: squid
+
+2. Passage: I wake up at 8 AM every morning. I make my bed and go to the bathroom. I brush my teeth and wash my face. Then I change my clothes and go to school. The school bus arrives at 9 AM.
+Question1: What time does the boy wake up?
+Option A1: 8 AM
+Option B1: 7 AM
+Option C1: 6 AM
+Option D1: 9 AM
+Question2: What does the boy do first?
+Option A2: make his bed
+Option B2: wash his face
+Option C2: go to school
+Option D2: brush his teeth
+
+3. Passage: My aunt Lisa is a model. She has many clothes in her closet. She loves to buy beautiful shoes. Her closet is very interesting. I want to be a designer when I grow up.
+Question1: What does Lisa like to do?
+Option A1: buy shoes
+Option B1: sell clothes
+Option C1: clean her closet
+Option D1: buy jewelry
+Question2: What does the writer want to be?
+Option A2: designer
+Option B2: model
+Option C2: singer
+Option D2: actress
+
+4. Passage: Zack is a part of his school band. There are ten people in the band. He plays the trumpet. His best friend, Luke, plays the drums. They play at a festival every month.
+Question1: How many people are in the band?
+Option A1: ten
+Option B1: seven
+Option C1: eight
+Option D1: nine
+Question2: What does Luke play?
+Option A2: trumpet
+Option B2: clarinet
+Option C2: drums 
+Option D2: flute

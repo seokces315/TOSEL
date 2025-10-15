@@ -1,0 +1,23 @@
+Task:
+You're creating an English test for Junior level EFL students in middle school. You’re working on the Listen and Speak section, which tests the student’s understanding of everyday conversation. The student listens to a short dialogue between a man and a woman and chooses the correct response to what the last speaker says.
+
+Instructions:
+1. Generate 5 sets of this question type. Each question set should have a dialogue, a question, and 4 answer choices. Format each question set as follows:
+Passage:
+M: [line 1]
+W: [line 2]
+M: [line 3]
+Question: What’s next?
+Option A. [Correct option]
+Option B. [Distractor]
+Option C. [Distractor]
+Option D. [Distractor]
+2. The dialogue should be no more than 25 words long. In the dialogue, a man and a woman should talk to each other about an everyday topic. The man speaks first about an everyday topic, and the woman responds. Then the man responds to the woman. Use polite and natural spoken English in present tense. The woman’s final (missing) line must be something a real person might say in everyday life. Each speaker’s line should be one sentence, with clear spoken tone. Avoid compound or complex clauses.
+3. The last thing that the man says can be one of the following:
+- The man can either say a yes or no question, or a question that begins with who, where, what, why, when, how.
+- The man can also make a statement that tells details about a person, thing, place, or idea, or he can express his emotion or opinion.
+4. The students have to choose what the woman should say next. What the woman says next could be a response to the man’s question, or a statement. Across the 5 sets, vary the topics (e.g., school, hobbies, shopping, family, events), relationships (e.g., friends, classmates, family, teacher-student, store clerk-customer), and the place where the conversation takes place.
+5. The question should always ask ‘What’s next?’.
+6. There should be 4 answer choices on what the woman says next. All answer choices must be grammatically correct and plausible-sounding. Distractors should be semantically related but clearly less appropriate or slightly off-topic. Avoid obvious jokes or irrelevant responses. Distractors must match the referents, tense, and tone of the previous speaker’s statement. Avoid shifting to unrelated subjects or first/third-person conflicts.
+7. Ensure that there is only one possible answer for each question. The correct answer choice should always be the first one.
+8. Ensure the level of the vocabulary and the difficulty of the questions are suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1.

@@ -1,0 +1,20 @@
+1. Passage: Description: a girl lying down on a sofa listening to music
+Question: What is the girl doing?
+Option A: She is listening to music
+Option B: She is lying on her bed
+Option C: She is wearing a red shirt
+Option D: She is going to school
+
+2. Passage: Description: a boy riding a bike wearing a blue helmet
+Question: What color is the boy’s helmet?
+Option A: It is blue
+Option B: It is yellow
+Option C: It is green
+Option D: It is red
+
+3. Passage: Description: a girl holding a bouquet of flowers
+Question: What is she holding?
+Option A: She’s holding books
+Option B: She’s holding flowers
+Option C: She’s holding a baby
+Option D: She’s holding a bag

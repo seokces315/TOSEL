@@ -1,0 +1,27 @@
+Task:
+You’re creating an English test for Pre-starter-level EFL learners in grades 1 and 2. You’re working on "Look and Recognize". This section tests the student’s ability to look at an image, and choose the correct sentence that describes the image.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include:
+- An image caption (a short phrase or sentence fragment that describes the image)
+- Four answer choices that are complete sentences, all grammatically consistent, where only Option A is correct
+2. Format each set like this:
+Passage: Description: [short image caption]
+Option A: [correct full sentence]
+Option B: [distractor]
+Option C: [distractor]
+Option D: [distractor]
+3. There should be four options provided. All answer choices must:
+- Begin with the same subject (e.g. "The girl is…" / "It is…" / "He is…")
+- Use the same verb tense and sentence structure
+- Be 6–8 words long and appropriate for grade 1–2 readers
+4. Across the 5 sets, vary the image topics (e.g. animals, actions, objects, food, time, weather, school) to ensure diverse content.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. If the answer choices involve numbers, quantities, or amounts, organize the three distractors in increasing numerical order (from smallest to largest). The correct answer (Option A) should always appear first, but the distractors must follow this order.
+Example:
+- Option A: 6 years
+- Option B: 5 years
+- Option C: 7 years
+- Option D: 8 years
+7. Do not repeat the content from the example, but only use it as a guideline.
+8. Ensure the level of the vocabulary used is suitable for elementary students in grade 1-2 with the CEFR A1+~A2, Lexile level of 200-450 and AR of 1.5-3.0.

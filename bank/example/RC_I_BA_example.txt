@@ -1,0 +1,35 @@
+1. Passage: Galdino Soscia owns a small sandwich shop across the street from a high school. Every lunch hour, many students come to buy his sandwiches. Soscia makes his sandwiches with fresh Italian bread, tomatoes, cheese, and cold meats. Two slices of meat and one slice of cheese cost $2.00. Three slices of meat and two slices of cheese cost $3.00.
+Question1: Who are a lot of Soscia’s customers during lunchtime?
+Option A1: students
+Option B1: Italians
+Option C1: parents
+Option D1: teachers
+Question2: What cost 2 dollars?
+Option A2: 2 slices of meat and 1 slice of cheese
+Option B2: 2 slices of meat and 3 slices of cheese
+Option C2: 3 slices of meat and 2 slices of cheese
+Option D2: 3 slices of meat and 3 slices of cheese
+
+2. Passage: It is Connor’s birthday today. His mom bakes him a chocolate cake. She decorates it with chocolate frosting. She puts strawberries on top, which are Connor’s favorite fruit. After dinner, Connor cuts the cake. He shares the cake with his mom, dad and younger sister. He is very happy.
+Question1: What is Connor’s favorite fruit?
+Option A1: strawberries
+Option B1: grapes
+Option C1: oranges
+Option D1: bananas
+Question2: How many siblings does Connor have?
+Option A2: none
+Option B2: one
+Option C2: two
+Option D2: three
+
+3. Passage: Rachel is very busy today. In the morning, she goes to school until 2 PM. After school, she participates in a speech club. There, she practices a speech for an hour. Then, she has badminton practice at the gym. She has a badminton match coming up next month. Finally, she goes home and does her homework.
+Question1: Which club is Rachel part of?
+Option A1: speech club
+Option B1: film club
+Option C1: debate club
+Option D1: photography club
+Question2: When is Rachel’s next badminton match?
+Option A2: next month
+Option B2: tomorrow
+Option C2: next week
+Option D2: today

@@ -1,0 +1,26 @@
+1. M: What time is the concert?
+W: I think it’s at 7.
+M: Should we meet there at 6:30?
+Question: What’s next?
+Option A: 6:30 sounds good to me
+Option B: did you go yesterday?
+Option C: yes, 7 o’clock is great
+Option D: yes, good luck with the flute!
+
+2. M: This pencil case is cracked.
+W: Did you drop it?
+M: No. I don’t know how it broke.
+Question: What’s next?
+Option A: I hope you can glue it
+Option B: we are on page 56
+Option C: we will have dessert
+Option D: I like blue more than red
+
+3. M: Do you want to make paper birds with me?
+W: Sure. What’s this for?
+M: To give to my cousin.
+Question: What’s next?
+Option A: That’s a nice gift idea
+Option B: this bike is too big
+Option C: there are a cat and dog
+Option D: they don’t have my book

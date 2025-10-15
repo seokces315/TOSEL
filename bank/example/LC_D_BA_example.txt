@@ -1,0 +1,20 @@
+1. Passage:
+Question: How many people are in your photography class?
+Option A: About twenty in total.
+Option B: In the school arts room.
+Option C: You just need a camera.
+Option D: On Tuesdays and Thursdays.
+
+2. Passage:
+Question: Why were you late for practice?
+Option A: I missed my bus.
+Option B: That is a great idea.
+Option C: At exactly nine o’clock.
+Option D: The market is to your left.
+
+3. Passage:
+Question: Who is the girl sitting by Junho?
+Option A: That’s the new student.
+Option B: I already had lunch.
+Option C: Stand up for a moment.
+Option D: This seat is empty.

@@ -1,0 +1,23 @@
+1. Girl: What did you do this morning?
+Boy: I took out the trash.
+Question: What did the boy do this morning?
+Option A: a boy taking out the trash
+Option B: a boy planting flowers
+Option C: a boy putting away his toys
+Option D: a boy sweeping the floor
+
+2. Girl: Can I have another muffin? It’s delicious.
+Boy: Sure. There’s plenty. Please help yourself.
+Question: What is the girl eating?
+Option A: a muffin
+Option B: a bowl of cereal
+Option C: a bag of popcorn
+Option D: a pretzel
+
+3. Boy: I went roller skating yesterday.
+Girl: That’s so cool! I’ve never roller skated before.
+Question: What did the boy do yesterday?
+Option A: a boy roller skating
+Option B: a boy skiing
+Option C: a boy riding a bicycle
+Option D: a boy holding a skateboard

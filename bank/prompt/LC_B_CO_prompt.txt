@@ -1,0 +1,12 @@
+Task:
+You’re creating an English test for EFL learners in kindergarten, between the age of 4 and 6. You’re working on the "Listen and Respond" section, where the student listens to the audio clue and  chooses the best response for it.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include 4 questions with 4 answer choices.
+2. The question should be a declarative, interrogative, or imperative sentence that requires a response. If the sentence is interrogative, it can begin with who, what, where, when, how. It can also be a sentence that requires a yes or no response. The question should be no more than 6 words long.
+3. There should be only 1 answer for the question. The correct choice must always be the first one.
+4. You must follow the requirements below:
+- The question and answer choices should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic.
+- The maximum number of words in each choice should be 5.
+- Ensure the level of the vocabulary used is suitable for kindergarten students ages 4-6, with the Lexile level of BR~250, AR of 0.1~1.5, and CEFR Pre~A1.
+- Ensure the answer choices are complete sentences that are grammatically correct.

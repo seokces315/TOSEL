@@ -1,0 +1,20 @@
+1. Passage: What am I? I am big and gray. I am very heavy. I have big ears and a long nose. I can be found at the zoo.
+Question: What am I?
+Option A. an elephant
+Option B. a crocodile
+Option C. a whale
+Option D. a bear
+
+2. Passage: It is lunch time. Max eats a slice of pizza. Dan eats pasta. Liam eats a sandwich. After lunch, they go outside and play soccer.
+Question: What does Dan eat?
+Option A. pasta
+Option B. pizza
+Option C. sandwich
+Option D. burger
+
+3. Passage: Katie wakes up at 7 AM. She eats breakfast and goes to school. Her school ends at 2 PM. At 3 PM, she has cello lessons. She comes home at 4 PM.
+Question: When does Katie have cello lessons?
+Option A. at 3 PM
+Option B. at 2 PM
+Option C. at 4 PM
+Option D. at 5PM

@@ -1,0 +1,23 @@
+1. Passage: Jake loves playing sports. He is on his school’s basketball team. He has basketball practice every Monday, Wednesday and Friday. On the weekends, he plays baseball or rides his bike with his friends. Sometimes, he plays soccer with his father. His father is a soccer coach.
+Question 1: How many times does Jake have basketball practice per week?
+Option A. three times
+Option B. two times
+Option C. one time
+Option D. four times
+Question 2: What does Jake’s father do?
+Option A. a soccer coach
+Option B. an athletic trainer
+Option C. a baseball player
+Option D. a gym teacher
+
+2. Passage: Attention, all visitors. We will be closing soon. If you have any books you wish to borrow, please come to the check-out counter. We will be closed tomorrow for the holiday. If you have any books you wish to return, please use the return bin outside the building. We will be open again on Tuesday.
+Question 1: Where is this announcement taking place?
+Option A. at a library
+Option B. at a mall
+Option C. at a bank
+Option D. at a bakery
+Question 2: When will they be open again?
+Option A. on Tuesday
+Option B. on Wednesday
+Option C. on Thursday
+Option D. on Friday

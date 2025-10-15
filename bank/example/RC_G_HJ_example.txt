@@ -1,0 +1,20 @@
+1. Passage: Description: a man wearing a nice suit
+Question: You look like ___________ bucks in your new suit!
+Option A: a million
+Option B: a billion
+Option C: a hundred
+Option D: a thousand
+
+2. Passage: Description: a woman eating a very small portion of food
+Question: Don’t bother making a big meal. I eat like a ___________.
+Option A: bird
+Option B: pig
+Option C: fox
+Option D: bear
+
+3. Passage: Description: a teacher giving a student a high five in a classroom
+Question: The teacher was ___________ with the student’s perfect answer.
+Option A: satisfied
+Option B: irritated
+Option C: troubled
+Option D: annoyed

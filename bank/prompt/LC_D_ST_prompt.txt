@@ -1,0 +1,18 @@
+Task:
+You’re working on the "Listen and Respond" section. This section tests the student’s ability to properly respond to what a speaker says. The student listens to a statement or a question and chooses the correct response to it.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a question with 3 answer choices.
+2. The question can be a statement or a question that requires a response. The question can be any of the following types:
+- wh- question asking who, what, where, when, why, how
+- yes/no question
+- declarative sentence
+- imperative sentence
+3. The question or the statement should be no longer than 8 words long.
+4. There should be 3 choices and should be in complete sentences. There are three possible types of responses:
+- statement to a question
+- question to a statement
+- statement to a statement
+Balance the use of these different combinations across sets. Vary the topic and situations used across sets.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 3-4 with CEFR A2+~B1, Lexile 400-650 and AR of 2.5-4.5.

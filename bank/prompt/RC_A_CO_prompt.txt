@@ -1,0 +1,15 @@
+Task:
+You’re creating an English test for EFL learners in kindergarten, between the age of 4 and 6. You’re working on the "Spell the words" section, where the student looks at an image and chooses the letter to spell a word correctly.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include 4 questions. Format each set like this:
+Question 1: [word with blank]
+Option A1: [correct letter]
+Option B1: [distractor]
+Option C1: [distractor]
+Option D1: [distractor]
+...repeat for 4 questions
+2. Each question should include a word with a blank in it, and 4 choices. The correct letter that goes in the blank should be the first option. The word should be a noun which is easy to be shown with an image.
+3. All distractor letters should be lowercase alphabet letters. They should be plausible phonetic alternatives, not random or unrelated letters. Avoid numbers or uppercase letters.
+4. The four options should each be an alphabet letter and there should be only 1 letter that goes in the blank to complete the word.
+5. Ensure the level of the vocabulary used in the dialogue is suitable for kindergarten students ages 4-6, with the Lexile level of BR~250, AR of 0.1~1.5, and CEFR Pre~A1.

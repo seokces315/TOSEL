@@ -1,0 +1,20 @@
+1. Passage: I have never seen this movie before. Have you?
+Question: What is the best response?
+Option A: No, it just came out this week
+Option B: Yes, try it before it ends
+Option C: No, I can’t see it from here
+Option D: Yes, it seems like a long shot
+
+2. Passage: She was very brave for standing up for him.
+Question: What is the best response?
+Option A: It probably wasn’t easy for her
+Option B: He shouldn’t worry about me
+Option C: Let’s stand for 5 to 10 minutes
+Option D: I have a huge favor to ask you
+
+3. Passage: How did you finish your homework so quickly?
+Question: What is the best response?
+Option A: I kept focused until I was through
+Option B: You kept distracting me
+Option C: I don’t know when exactly
+Option D: You might make mistakes if you go quickly

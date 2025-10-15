@@ -1,0 +1,23 @@
+Question1: _oney
+Option A1: m
+Option B1: n
+Option C1: l
+Option D1: k
+
+Question2: jui_e
+Option A2: c
+Option B2: s
+Option C2: l
+Option D2: k
+
+Question3: par_
+Option A3: k
+Option B3: p
+Option C3: b
+Option D3: c
+
+Question4: _able
+Option A4: t
+Option B4: b
+Option C4: d
+Option D4: k

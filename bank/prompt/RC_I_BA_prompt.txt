@@ -1,0 +1,15 @@
+Task:
+Pretend you're creating an English test for Basic level EFL students in grades 5 and 6. You're working on the "General Reading and Retelling" section. In this section, students read a short story and answer two multiple-choice questions based on it. The goal is to assess students' basic reading comprehension through short narrative texts.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a reading passage, 2 multiple questions, and 4 answer choices for each question.
+2. The reading material should be no more than 60 words long. The passage can be a story with details and should not be expository. Use natural and age-appropriate English. Do not reuse or imitate the examples shown below. Each passage should be on a different topic and include simple details or actions.
+3. Two multiple-choice questions per passage. The question types must rotate across sets, using any two of the following:
+- find the best title for the story
+- find the topic or the main idea of the passage
+- find details about the passage
+- find what is true or not true about the passage
+4. Each question must have exactly four choices (A–D). All choices should be of the same part of speech (nouns, phrases, or short clauses). Do not use full sentences. Only one answer must be correct, and the correct answer is always Option A.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Avoid tricky wording or distractors that feel unnatural.
+7. The vocabulary, sentence structure, and question complexity must be appropriate for students with CEFR B1+~B2, Lexile level of 600–850 or AR 4.0–6.0.

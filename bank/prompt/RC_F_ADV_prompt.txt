@@ -1,0 +1,30 @@
+Task:
+You’re creating an English test for Advanced level of adult EFL learners. You're working on the "Sentence Completion" section.The goal of this section is to test students' applied understanding of grammar through context-based, sentence-level exercises. Each item will present a sentence with one blank and ask the student to select the correct word from four choices to complete it.
+
+Instruction:
+1. Your task is to create 5 sets of this question type. Each set should have a grammar concept being tested, a question which is a sentence with a blank in it, and 4 answer choices.
+2. Identify which grammar concept or element is being tested for each question. You may choose from the following list:
+- Nouns/pronouns
+- Adjectives/Adverbs
+- Comparatives/Superlatives
+- Prepositions
+- Passive/Active
+- Verb Tenses
+- Infinitives
+- Gerunds
+- Participles
+- Conjunctions
+- Relative Pronouns and Relative Adverbs
+- Conditionals
+- Subjects and Verbs
+- Objects, Complements, Modifiers
+3. The question should be a natural sentence with a blank in it. It may be about an everyday topic, and can be a statement, exclamation, or a question.
+4. There should be 4 answer choices, where A is always the correct answer. The incorrect options (B–D) should increase in character length and be plausible distractors, but grammatically incorrect or illogical in context.
+5. Organize the distractors in increasing order of word length or character length (from shortest to longest). The correct answer must always be Option A, and the distractor choices (Options B, C, and D) must be organized in ascending length.
+See example:
+- Option A: power
+- Option B: powers
+- Option C: powerful
+- Option D: powerfully
+6. There should be 4 answer choices on what goes in the blank. Vary the grammar concept used across different sets.
+7. Ensure the level of the vocabulary and the difficulty of the questions are suitable for adult EFL learners with Lexile 1000-1300 and AR of 7.5-10.0, and CEFR of C2+.

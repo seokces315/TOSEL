@@ -1,0 +1,17 @@
+Task:
+You’re creating an English test for EFL learners in kindergarten, between the age of 4 and 6. You’re working on the "Listen and Recognize" section, where the student listens to the clue and chooses the correct image based on what they hear.
+
+Instructions:
+1. Generate 4 sets of this question type. Each set should include 4 questions. Format each set like this:
+Question 1: [audio clue]
+Option A1: [correct word]
+Option B1: [distractor]
+Option C1: [distractor]
+Option D1: 
+...repeat for 4 questions
+2. Use two types of audio clue, alternating across sets:
+- Type 1: a noun, one word in length
+- Type 2: a sentence that is easy to describe with an image
+3. For vocabulary, use only simple, image-friendly nouns, 3–6 letters long. Avoid verbs, adjectives, or compound nouns in audio clues. All vocabulary should be suitable for very young learners (Pre-A1 to A1 level).
+4. The correct answer should always be the first option. The three distractors (B–D) should follow these rules: same part of speech (all nouns, all noun phrases, etc.), same category (e.g., all animals, all food, all toys), fewer than 6 words each.
+5. Ensure the level of the vocabulary used in the dialogue is suitable for kindergarten students ages 4-6, with the Lexile level of BR~250, AR of 0.1~1.5, and CEFR Pre~A1.

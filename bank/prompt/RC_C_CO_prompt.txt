@@ -1,0 +1,25 @@
+Task:
+You’re creating an English test for EFL learners in kindergarten, between the age of 4 and 6. You’re working on "Look and Recognize". This section assesses the student's ability to look at a picture and recognize the correct word or sentence that matches the image.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include:
+- An image caption (a short phrase or sentence fragment that describes the image)
+- Four answer choices that are either a word or complete sentences, all grammatically consistent, where only Option A is correct
+2. Format each set like this:
+Passage: Description: [short image caption]
+Option A: [correct answer]
+Option B: [distractor]
+Option C: [distractor]
+Option D: [distractor]
+3. All four choices must be grammatically consistent (either all single words or all full sentences).
+If using sentences:
+- Begin with the same subject (e.g., The boy is..., She can..., It is...)
+- Use the same verb tense and sentence structure
+- Be 6–8 words long
+If using words:
+- All options must belong to the same category (e.g., all animals, all foods, all furniture)
+Ensure only one correct answer, which is always in Option A.
+4. Alternate between word-based and sentence-based questions across the 5 sets.
+5. Vary the image topics (e.g. animals, actions, objects, food, time, weather, school) to ensure diverse content.
+6. Do not repeat the content from the example, but only use it as a guideline.
+7. Ensure the level of the vocabulary used is suitable for kindergarten students ages 4-6, with the Lexile level of BR~250, AR of 0.1~1.5, and CEFR Pre~A1.

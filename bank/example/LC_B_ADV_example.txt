@@ -1,0 +1,20 @@
+1. Passage: So you finally got to try that new restaurant. What’s the verdict?
+Question: What is the best response?
+Option A: It had great food but slow service
+Option B: I haven’t tried it yet
+Option C: It’s open until quite late
+Option D: I don’t eat out as much these days
+
+2. Passage: What is the active ingredient in this cough medicine?
+Question: What is the best response?
+Option A: Some kind of decongestant
+Option B: No more than twice in 12 hours
+Option C: A doctor could write a prescription
+Option D: It just needs to be mixed with hot water
+
+3. Passage: Can you believe how much it rained last night?
+Question: What is the best response?
+Option A: That was quite the downpour
+Option B: I missed the train I was aiming for
+Option C: That is a refreshing sight in the morning
+Option D: I love it when the snow rests on the trees

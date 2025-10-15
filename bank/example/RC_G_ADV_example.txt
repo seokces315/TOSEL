@@ -1,0 +1,20 @@
+1. Passage: a hand pressing a button on a vending machine.
+Question: This vending machine is _____________. We'll have to go to the convenience store for snacks.
+Option A: out of order
+Option B: out of way
+Option C: out of number
+Option D: out of fashion
+
+2. Passage: a lovely couple looking at each other, smiling.
+Question: As a ____________ of fact, I did know Michael and Liu were dating, but I just kept it secret.
+Option A: matter
+Option B: tale
+Option C: question
+Option D: problem
+
+3. Passage: a confident woman crossing her arms and looking straight ahead.
+Question: I’ve never seen my boss ____________. She’s really good at controlling her emotions in any circumstance.
+Option A: lose her temper
+Option B: keep her temper
+Option C: press her anger
+Option D: restrain her anger

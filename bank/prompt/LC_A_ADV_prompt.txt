@@ -1,0 +1,11 @@
+Task:
+You’re creating an English test for Advanced level adult EFL learners. You’re working on the Listen and Recognize section. This section tests the student's ability to listen to a short dialogue and identify the correct image that best reflects the situation or content of that dialogue.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set involves a short dialogue (alternating: Man speaks once, Woman speaks once), a question prompt, and 4 image captions (answer options), with only Option A being correct.
+2. The dialogue should be between a man and a woman. The man and the woman should each speak once, alternating. The topics of the dialogue can be about actions of people, description of people, or description of objects. Vary the topics, relationships between speakers, and grammatical structures across sets. Each line of the dialogue should be no longer than 15 words long.
+3. There should be 4 image captions as answer choices. The options should be plausible as image descriptions. Only Option A should be the correct match to the dialogue. All 4 options must:
+- Be grammatically consistent (e.g., all noun phrases, all verbs, all adjectives, etc.)
+- Have the same subject
+4. The dialogue, question and answer choices should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic. Use rich vocabulary appropriate for adult learners. Ensure only one clearly correct answer per question.
+6. Ensure the level of the vocabulary used is suitable for adult EFL learners with Lexile 1000-1300 and AR of 7.5-10.0, and CEFR of C2+.

@@ -1,0 +1,10 @@
+Task:
+Pretend you're creating an English test for Basic-level EFL students in grades 5-6. You’re working on the “Listen and Retell” section. In this section, the students listen to a short dialogue between a man and woman and choose the best answer for each question that follows.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should have a dialogue, a question about the dialogue, and 4 answer choices.
+2. The dialogue should be between a man and a woman. The man and the woman should each speak once, alternating. Dialogues should be varied based on the topic, relationships between speakers, and grammatical structures. The dialogue can be about a person, action, object, animal, food, weather, number, or amount of something. The dialogue should not be more than 18 words long.
+3. The question can require the student to find details about the dialogue (what, why, where, when, how, who questions). It should test for the student’s comprehension of the dialogue. The answers to the question should be about something that was explicitly mentioned in the dialogue.
+4. All choices must belong to the same part of speech (noun, verb, adjective, or adverb). The choices do not have to be in complete sentences, and should not be longer than 10 words long.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with Lexile 600-850, AR of 4.0~6.0, and CEFR B1+~B2.

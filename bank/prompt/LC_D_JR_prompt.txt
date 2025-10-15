@@ -1,0 +1,15 @@
+Task:
+You’re working on the “Listen and Respond” section. This section tests the student’s ability to properly respond to what a speaker says. The student listens to a statement or a question and chooses the correct response to it.
+
+Instructions:
+1. Generate 5 sets of this question type. Each question set should have a question and 4 choices.
+2. The question should be a statement or a question that requires a response. There are 5 main categories of the question:
+- relaying information
+- expressing opinion
+- expressing emotion
+- addressing a problem
+- making a suggestion/request/favor/command
+3. The question should be grammatically correct and complete, and it should be no longer than 15 words long. Vary the topics and situations across sets.
+4. The choices should be no longer than 15 words long. There are three possible types of responses: statement to a question, question to a statement, and a statement to a statement. Balance the use of these different combinations across sets.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1.

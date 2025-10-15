@@ -1,0 +1,16 @@
+Task:
+You're working on the "Sentence Completion" section. In this section, the student reads a short sentence containing a blank and chooses the correct word to fill in the blank correctly. This section is designed to assess students' understanding of fundamental English grammar by requiring them to complete short, everyday sentences using the most grammatically appropriate word.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a fill in the blank question with 4 answer choices.
+2. The fill-in-the-blank sentence should be complete, natural-sounding, and contain 6 to 12 words. Use everyday contexts. The sentence can be a statement, question, or exclamation. The fill in the blank sentence should test different grammatical concepts/elements. You may choose from the following list of grammar concepts for the word that goes in the blank:
+- plural nouns
+- pronouns
+- possessive and objective case
+- be verbs
+- action verbs or general verbs
+- wh-words or question verbs
+- prepositions
+3. The 3 distractors (Options B, C, D) can be grammatically incorrect or grammatically correct but clearly incorrect in meaning or usage.
+4. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+5. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 3-4 with Lexile 400-650 and AR of 2.5-4.5.

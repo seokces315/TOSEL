@@ -1,0 +1,20 @@
+Task:
+You’re creating an English test for High Junior level EFL learners in high school. You're working on the "General Reading and Retelling" section, where the student reads a passage and answers 4 multiple-choice questions about it. The purpose of this task is to evaluate high school students’ ability to comprehend academic or real-world informational texts. This is done through a mix of question types that assess main idea identification, retrieval of supporting details, vocabulary meaning in context, tone recognition, inferencing, and logical text structure awareness.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a 3-paragraph reading passage, 4 multiple questions, and 4 answer choices.
+2. The reading material should be a non-fiction reading passage made up of three paragraphs, labeled 1, 2, and 3. Each paragraph should contribute to a coherent central topic. The passage should be no more than 120 words in total and written in natural, level-appropriate English.
+3. Each passage must cover a different academic or real-world topic, such as science, history, psychology, art, or literature. Avoid repeating topics across the 3 sets.
+4. Each passage should begin with a clear topic sentence, followed by supporting information or examples.
+5. After the passage, include 4 multiple-choice questions that evaluate different reading skills. Across the 3 sets, use a balanced mix of the following question types (but do not use more than 2 of the same type in any one set):
+- main idea or best title
+- detail mentioned in the passage
+- detail not mentioned in the passage
+- synonym of a quoted word in context
+- tone of the passage
+- inference
+- sentence placement (with [A], [B], [C], [D] markers in the passage)
+6. Each question must have 4 answer choices labeled A–D. The correct answer must always be Option A. The other choices must be clearly incorrect but plausible and belong to the same part of speech or structure.
+7. Ensure that no phrases or questions are repeated between sets.
+8. You must rotate both the topics and question types across sets to create a well-balanced section.
+9. Use vocabulary and sentence structures appropriate for students in grades 9–12, targeting a Lexile level of 1000–1300, AR range of 8.5–10.0, and CEFR of C1+~C2. Avoid idioms, overly abstract language, or advanced academic jargon.

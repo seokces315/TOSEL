@@ -1,0 +1,25 @@
+1. Passage: The four members of the Beatles, John Lennon, Paul McCartney, George Harrison, and Ringo Starr, used to be ordinary boys living in Liverpool.However, now they are known as members of a group that influenced popular culture, including music, fashion, film, and more. Initially, John was a part of his school band, and later, Paul, George, and Ringo joined the band, creating the Beatles. In 1963, they recorded songs for their album called "Please Please Me," which reached number one on several music charts. In 1964, they made their US debut, heightening interest in British music. The band stopped touring in 1966 after touring non-stop for four years.
+Summary: John Lenon, Paul McCartney, George Harrison, and Ringo Star used to be ____[A]____ boys before becoming the Beatles. They started off with a school band. They recorded songs for their debut album in 1963, and it became a hit. They toured America in 1964, which led to the ____[B]____ interest in British music.
+Question1: Choose the most suitable word for blank [A], connecting the summary to the passage.
+Option A1: normal
+Option B1: worthy
+Option C1: natural
+Option D1: reliable
+Question2: Choose the most suitable word for blank [B], connecting the summary to the passage.
+Option A2: increased
+Option B2: expected
+Option C2: permanent
+Option D2: disapproved
+
+2. Passage: Michelangelo Buonarroti, or Michelangelo for short, is one of the greatest Italian Renaissance artists. He became an artist’s apprentice when he was thirteen years old. Due to his incredible talent, he was taken under Lorenzo de’ Medici, who was a great patron of the arts. His most important early work was the Pieta, which was a sculpture of Christ on Virgin Mary’s lap. When the Pieta became successful, he was asked to carve a statue of David for the Florence cathedral. When he completed the statue of David, his reputation was firmly established. Today, Michelangelo’s statue of David is one of the most famous statues in the world.
+Summary: Michelangelo was an incredible Renaissance artist. He had ____[A]____ talent, so he was taken under Lorenzo de’ Medicini. One of his early works was called the Pieta. It was a sculpture of Christ sitting on Virgin Mary’s lap. ____[B]____, he was asked to carve a statue of David, which is one of the most well-known statues today.
+Question1: Choose the most suitable word for blank [A], connecting the summary to the passage.
+Option A1: beloved
+Option B1: upcoming
+Option C1: equivalent
+Option D1: extraordinary
+Question2: Choose the most suitable word for blank [B], connecting the summary to the passage.
+Option A2: However
+Option B2: Although
+Option C2: Afterwards
+Option D2: For instance

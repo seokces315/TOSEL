@@ -1,0 +1,16 @@
+Task:
+You’re working on the “Listen and Respond” section. This section tests the student’s ability to properly respond to what a speaker says. The student listens to a statement or a question and chooses the correct response to it.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should have a sentence and 4 choices.
+2. The sentence should be a statement or a question that requires a response. The sentence can do one of the following:
+- relay information
+- express an opinion
+- express an emotion
+- raise a problem
+- make a suggestion, request, or command
+Vary the type of sentence used across sets.
+3. The statement or question should be no longer than 10 words long.
+4. There should be 4 choices. The choices should be no longer than 10 words long, but they should be in complete sentences. There are three possible types of responses: statement to a question, question to a statement, and a statement to a statement.Balance the use of these different combinations across sets. Vary the topic and situations used across sets.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with Lexile 600-850, AR of 4.0~6.0, and CEFR B1+~B2.

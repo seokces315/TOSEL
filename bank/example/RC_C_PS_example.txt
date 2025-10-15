@@ -1,0 +1,17 @@
+1. Passage: Description: a girl on a horse
+Option A: The girl is riding a horse
+Option B: The girl is riding a cow
+Option C: The girl is riding an elephant
+Option D: The girl is riding a buffalo
+
+2. Passage: Description: a clock showing the time at 11:59
+Option A: It’s almost 12 o’ clock
+Option B: It’s almost 1 o’ clock
+Option C: It’s almost 8 o’ clock
+Option D: It’s almost 10 o’ clock
+
+3. Passage: Description: a boy writing something at his desk
+Option A: The boy is writing a letter
+Option B: The boy is folding a letter
+Option C: The boy is ripping a letter
+Option D: The boy is sending a letter

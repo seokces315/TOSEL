@@ -1,0 +1,19 @@
+Task:
+You're working on the "Sentence Completion" section. In this section, the student reads a short dialogue between A and B containing a blank and chooses the correct word to fill in the blank correctly. This section is designed to test students’ understanding of English grammar in the context of everyday conversations. Students read a short dialogue between Speaker A and Speaker B, where one line contains a blank. Their task is to choose the correct word or phrase that best completes the sentence grammatically and contextually.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a dialogue, a question with 4 answer choices.
+2. The dialogue should be a short dialogue between A and B, with a blank in one of their lines. Dialogue topics should be based on everyday situations. The sentence with the blank may be a statement, question, or exclamation. The other line should be a natural response to maintain conversational flow. Each line in the dialogue should be no more than 12 words long.
+3. The word or phrase that goes in the blank should test one of the following grammar concepts (use a different one for each set):
+- nouns
+- pronouns
+- adjectives
+- adverbs
+- verb forms
+- tense agreement
+- prepositions
+- interrogative sentences (questions)
+- conjunctions
+4. There should be 4 answer choices on what goes in the blank. The answer choices can be either a word or a phrase. Vary the grammar concept used across different sets.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with CEFR B1+~B2, Lexile 600-850 and AR of 4.0-6.0.

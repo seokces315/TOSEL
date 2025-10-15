@@ -1,0 +1,11 @@
+Task:
+You’re creating an English test for Advanced level adult EFL learners. You’re working on the Listen and Respond section. This section tests the student’s ability to listen to a sentence and choose the best response for it. The sentence can be declarative, interrogative, or imperative.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set involves a sentence, a question, and 4 choices for the response.
+2. The sentence should be a declarative, interrogative, or imperative sentence that requires a response. It should be one sentence, no more than 15 words long. The type of sentence can be categorized into: relaying information, expressing opinions, expressing emotions, expressing problems, making suggestions/requests/commands.
+3. The type of sentence should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic.
+4. The question should always ask ‘What is the best response?’.
+5. There should be 4 answer choices. The choices should all be a sentence, meaning they can also be a declarative, interrogative, or imperative. Each choice should be no more than 15 words long.
+6. There should be only one correct answer, and the correct choice must always be the first choice.
+7. Ensure the level of the vocabulary used is suitable for adult EFL learners with Lexile 1000-1300 and AR of 7.5-10.0, and CEFR of C2+.

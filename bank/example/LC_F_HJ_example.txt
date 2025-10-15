@@ -1,0 +1,23 @@
+1. Passage: An accident occurred on the road this afternoon. A car slipped on the ice and collided with a big truck. Thankfully, the truck driver wasn’t hurt but the car driver got sent to the hospital. However, it looks like the car driver only has a minor injury. Due to this accident, the road will be blocked for some time. Those of you who are not in a hurry, it would be best to take a detour.
+Question 1: When did the accident happen?
+Option A. in the afternoon
+Option B. at night
+Option C. in the evening
+Option D. in the morning
+Question 2: What is TRUE according to this announcement?
+Option A. the road will be blocked temporarily
+Option B. the weather is rainy right now
+Option C. more than two cars hit each other
+Option D. both drivers got sent to the hospital
+
+2. Passage: Attention, all customers. We are having an end-of-day sale. All types of bread including white and wheat are 40% off. The remaining cake types are also 40% off. Croissants and bagels are 50% off. Donuts are 30% off. After today, all baked goods will be thrown away. Please purchase them while they’re here. Ask our staff members if you have questions. Thank you.
+Question 1: Where is this announcement most likely taking place?
+Option A. at a bakery
+Option B. at a library
+Option C. at a cinema
+Option D. at a restaurant
+Question 2: What is 50% off its original price?
+Option A. bagels
+Option B. cake
+Option C. bread
+Option D. donuts

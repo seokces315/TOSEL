@@ -1,0 +1,17 @@
+Task:
+You are creating an English reading comprehension test for Basic level EFL students in grades 3–4, with CEFR A2+~B1, Lexile levels around 400–650 and AR range 2.5–4.5. This is for the "General Reading and Retelling" section of the test. Your goal is to evaluate students' ability to understand short stories by answering multiple-choice questions.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a one short narrative passage (no more than 50 words), two multiple-choice questions about the passage, four answer choices (A–D) for each question, with Option A always being the correct answer.
+2. Each passage must be about a different topic, featuring simple events or actions, not expository or factual writing.
+3. Use natural, age-appropriate English. Avoid repeating vocabulary or structure from the sample passages.
+4. There should be two multiple-choice questions per passage. The question types must rotate across sets, using any two of the following:
+- find the best title for the story
+- find the topic or the main idea of the passage
+- find details about the passage
+- find what is true or not true about the passage
+5. All answer choices should be short, of the same part of speech (e.g. nouns, noun phrases, short clauses). Do not use full sentences.
+6. Only one correct answer per question. No ambiguity.
+7. Use simple but varied sentence structures. Avoid distractors that sound unnatural or are too obviously incorrect.
+8. Do not copy, rephrase, or imitate the sample passages below. Your outputs should be original and different in tone, characters, setting, and events.
+9. The vocabulary, sentence structure, and question complexity must be appropriate for students in grade 3-4 with CEFR A2+~B1, Lexile 400-650 and AR of 2.5-4.5.

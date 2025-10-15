@@ -1,0 +1,19 @@
+Task:
+Pretend you're creating an English test for Basic level EFL students in grades 5-6. You’re working on the “Listen and Retell” section. In this section, the student listens to a passage and chooses the correct answer to the questions about it. This section is designed to assess students’ listening comprehension skills, particularly their ability to recall factual details, understand main ideas, and make basic inferences from short spoken passages.
+
+Instructions:
+1. Generate 5 sets of questions for this question type.
+2. Each set should include a passage, two multiple-choice questions about it, and 4 answer choices for each question.
+3. The passage should be no more than 50 words long. Use simple present or past tense only. Avoid complex tenses, conditional sentences, and abstract language. Sentences should be clear, age-appropriate, and no longer than 12 words each. There are four main categories of passage in this section: story, journal, description, and announcement.
+- The Story/Fable category usually involves some kind of story that can be used to tell a moral lesson. While it commonly has tall tales involving animals, it does not necessarily have to be fantastical.
+- The Journal category also tells a story, but it follows the everyday life of someone or something. It can involve things like special life events or unexpected occurrences. The goal is to emulate a person talking about what has happened to them during their day.
+- The Description category describes a person, object, animal, etc. The subject may or may not be explicitly stated in the recording. The goal is to emulate a person describing their family, possessions, habits, etc.
+- The Announcement category emulates announcements that take place at stores, schools, the subway, etc. These are generally information-heavy, so when possible, they should be kept as short as possible to make it easier for test takers.
+4. The purpose of the 2 multiple questions is to test the student’s ability to do the following:
+- find details about the dialogue (what, why, where, when, how, who questions)
+- find general idea of the dialogue, such as the title or main topic
+- make an inference based on the dialogue
+5. Across the 5 sets, ensure a balanced distribution of passage types (e.g., 1 story, 1 journal, 1 description, 2 announcements). Avoid using the same question type more than twice. For example, if one passage includes a title question, others should focus on time, reason, action, or inference.
+6. The 4 answer choices do not have to be in complete sentences. They should not start with a capital letter or end with a period unless they are complete sentences.
+7. Ensure that there is only one possible answer for each question. The correct answer should always be the first option. All 4 answer choices must belong to the same category (e.g., all times, places, people, or actions) and part of speech. Distractors should be plausible but clearly incorrect based on the passage.
+8. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with Lexile 600-850. AR of 4.0~6.0, and CEFR B1+~B2.

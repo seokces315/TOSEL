@@ -1,0 +1,9 @@
+Task:
+Pretend you're creating an English test for Junior level EFL students in middle school. You're working on the "Situational Writing" section. This section tests the student's ability to interpret a visual scene and apply the correct word, phrase, or expression to complete a sentence that matches the image. The goal is to assess vocabulary range, grammatical precision, and contextual awareness.
+
+Instructions:
+1. Generate 5 sets of this question type. Each question set should include an image caption, a sentence with a blank in it, and 4 answer choices.
+2. The image caption should read like an image caption, can be a phrase, not a full sentence, and it must provide enough context to infer the correct answer.
+3. The sentence with a blank in it should match the scene in the picture description, should be grammatically natural and clearly related to the picture. The sentence should be no more than 12 words long. Avoid ambiguous blanks that could take multiple valid answers.
+4. There should be 4 answer choices. All choices must be from the same part of speech or word category (e.g., all nouns, all verbs, all adjectives, all prepositions). Option A is always correct and the distractors (Options B–D) must be grammatically correct but contextually wrong. Organize B–D in increasing order of character length.
+5. Ensure the level of the vocabulary and the difficulty of the questions are suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1. Avoid low-frequency academic words; prioritize descriptive, contextual, or figurative vocabulary that is still age-appropriate.

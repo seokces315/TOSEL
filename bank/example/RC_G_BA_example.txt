@@ -1,0 +1,20 @@
+1. Passage: Description: two kids shaking hands
+Question: Two kids are ____ their hands.
+Option A: shaking
+Option B: licking
+Option C: shaking
+Option C: washing
+
+2. Passage: Description: a girl pushing a shopping cart
+Question: The girl is ______ a shopping cart.
+Option A: pushing
+Option B: folding
+Option C: building
+Option D: pushing
+
+3. Passage: Description: a dog between a couple
+Question: The dog is ______ the couple.
+Option A: between
+Option B: under
+Option C: above
+Option D: beside

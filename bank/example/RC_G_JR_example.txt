@@ -1,0 +1,27 @@
+1. Passage: Description: two angry girls tugging on a teddy bear
+Question: The girls are ________ over a teddy bear.
+Option A fighting
+Option B talking
+Option C looking
+OPtion D playing
+
+2. Passage: Description: a box of donuts placed next to a coffee cup
+Question: The donuts are ________ the coffee.
+Option A: next to
+Option B: above
+Option C: beneath
+Option D: between
+
+3. Passage: Description: a boy walking with 6 dogs
+Question: Wow! He must be a ________ lover!
+Option A: canine
+Option B: slug
+Option C: snake
+Option D: cuttlefish
+
+4. Passage: Description: a girl painting a colorful picture
+Question: Her painting is ________.
+Option A: multicolor
+Option B: black
+Option C: visible
+Option D: unicolor

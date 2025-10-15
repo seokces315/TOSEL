@@ -1,0 +1,21 @@
+Task:
+You’re creating an English test for Advanced-level adult EFL learners. You’re working on the “Talks” section. In this section, the student listens to a passage and chooses the correct answer to the questions about it. The purpose of this section is to test students’ real-world listening comprehension skills by evaluating their ability to understand announcements, broadcasts, and spoken informational content.
+
+Instructions:
+1. Generate 5 sets of questions for this question type. Each set should include a passage, two multiple-choice questions about it, and 4 answer choices for each question.
+2. The passage should be between 60-80 words long. Passages should use formal or semi-formal spoken language. Use simple present or past tense. Sentences should be between 8–15 words each. Avoid overly casual phrases or slang.
+3. There are five main categories of the passage in this section:
+- news/forecasts
+- advertisements/coupons/opening events/product demos
+- lectures/presentations
+- event announcements/emergencies
+- airplane departure/arrival schedules, tour schedules
+Vary the category across all 5 sets.
+4. The 2 multiple questions following the prompt can require the student to do the following:
+- find details about the prompt
+- find general idea of the prompt, such as the title or main topic
+- make an inference
+5. You should maintain a balance between these different question types. Each set should include two different question types. Do not repeat the same type (e.g., two detail questions) in one passage. Across the 5 sets, include a mix of question types.
+6. The 4 answer choices do not have to be in complete sentences. All four answer choices must be the same part of speech and semantically related (e.g., all times, all items, all locations). The distractors must be plausible but clearly incorrect based on the passage.
+7. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+8. Ensure the level of the vocabulary and the difficulty of the questions are suitable for adult EFL learners with Lexile 1000-1300 and AR of 7.5-10.0, and CEFR of C2+.

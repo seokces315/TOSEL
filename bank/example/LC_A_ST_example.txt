@@ -1,0 +1,20 @@
+1. Passage: My dog is brown.
+Question: 
+Option A: a brown dog
+Option B: a white dog
+Option C: a black dog
+Option D: a spotted dog
+
+2. Passage: The boy is playing computer games.
+Question: 
+Option A: a boy playing computer games
+Option B: a boy playing soccer
+Option C: a boy playing with a drone
+Option D: a boy playing chess with a friend
+
+3. Passage: It is eleven thirty.
+Question: 
+Option A: a clock showing eleven thirty
+Option B: a clock showing ten thirty
+Option C: a clock showing twelve thirty
+Option D: a clock showing eleven o’clock

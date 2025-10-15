@@ -1,0 +1,39 @@
+1. Passage: Dear Steve,
+As you know, the basketball tryouts are next week. I was wondering if you’d like to practice together. I practice everyday at the school gym from 3 PM to 5 PM. 
+If you’re interested, please let me know. Thanks!
+John
+Question1: When are the basketball tryouts?
+Option A1: today
+Option B1: tomorrow
+Option C1: next week
+Option D1: next month
+Question2: How long does John practice everyday?
+Option A2: two hours
+Option B2: three hours
+Option C2: four hours
+Option D2: five hours
+
+2. Passage: Are you a fan of winter sports? Then, join our ski club. Our club is 
+open for everyone. We offer a special beginners course for those of you skiing for the first time. There is a monthly fee of 10 dollars, which covers the price of all equipment.
+Question1: What is this pamphlet advertising?
+Option A1: a ski club
+Option B1: a golf club
+Option C1: a lego club
+Option D1: a dance club
+Question2: How much is the monthly fee?
+Option A2: ten dollars
+Option B2: five dollars
+Option C2: fifteen dollars
+Option D2: twenty dollars
+
+3. Passage: Lucy Park: I bought this hoodie as a present for my sister. She loves the color and the simple design. She also said it’s pretty warm. Irene Baek: The color of this hoodie is quite different from what I saw on the website. However, I bought it at a good price, so I’m pretty satisfied.
+Question1: What does Irene NOT like about the product?
+Option A1: its color
+Option B1: its price
+Option C1: its length
+Option D1: its design
+Question2: Who did Lucy give the product to?
+Option A2: her sister
+Option B2: her aunt
+Option C2: her mom
+Option D2: her cousin

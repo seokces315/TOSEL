@@ -1,0 +1,23 @@
+Question1: Goodbye.
+Option A1: See you later.
+Option B1: Good morning.
+Option C1: You’re welcome.
+Option D1: Yes, I do.
+
+Question2: Are you sleepy?
+Option A2: Yes, I am.
+Option B2: She is hungry.
+Option C2: I want to dance.
+Option D2: No problem.
+
+Question3: Where is the key?
+Option A3: I don’t know.
+Option B3: I am fine.
+Option C3: I need your help.
+Option D3: You’re welcome.
+
+Question4: Who is that girl?
+Option A4: She is my sister.
+Option B4: I like green.
+Option C4: My sister is tall.
+Option D4: My mom is here.

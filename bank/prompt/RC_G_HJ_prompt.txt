@@ -1,0 +1,10 @@
+Task:
+You’re creating an English test for High Junior level EFL learners in high school. You're working on the "Picture Description" section. This section evaluates students’ ability to interpret real-life visual scenes and apply the correct expression, idiom, or vocabulary phrase to complete a sentence that naturally matches the image. This assesses both figurative language understanding and contextual reasoning.
+
+Instructions:
+1. Generate 5 sets of this question type. Each question set should include a real-life picture description, a sentence with a blank in it, and 4 answer choices.
+2. The picture description should be no longer than 15 words long, and doesn’t need to be in full sentences. It should read like a caption describing a real-life image and it must provide clear context to infer the meaning of the missing phrase.
+3. The sentence describing a real life image should be no longer than 20 words long. It can be a single sentence or split into two. The sentence must relate clearly to the picture and test either: an expression or idiom (e.g., "eat like a bird") or a strongly contextual adjective or verb (e.g., "thrilled", "overjoyed"). There must be only 1 blank. If it has a blank, it must be no longer than 20 words. It may be split into 2 separate sentences, but there should only be 1 blank.
+4. There should be 4 answer choices. Option A is always correct. Options B–D must be plausible but contextually incorrect. Organize B–D in increasing order of character length. All choices should belong to the same grammatical or functional category (e.g., all nouns, all adjectives, or all idiomatic phrases).
+5. Ensure that there is only one correct answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for high school students in grade 9-12 with Lexile 800-1100, AR of 5.5-8.0, and CEFR C1+~C2. Avoid obscure idioms or highly idiomatic slang not commonly taught in ESL/EFL classrooms.

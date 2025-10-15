@@ -1,0 +1,29 @@
+1. Passage:
+W: These croissants are fresh out of the oven!
+M: No wonder they smell good. I’ll have two.
+W: That will be five dollars.
+Question: Where most likely are the speakers?
+Option A: at a bakery
+Option B: at a bank
+Option C: at a hospital
+Option D: at a museum
+
+2. Passage:
+W: I don’t understand the math homework.
+M: Which chapter are you on? Maybe I can help you.
+W: I’m on chapter five right now.
+Question: What subject is the woman struggling with?
+Option A: math
+Option B: art
+Option C: history
+Option D: science
+
+3. Passage:
+M: Do you want to ride our bikes today?
+W: Yes, but I have to finish this project first.
+M: Okay. Then, let me know when you’re done.
+Question: What does the man suggest?
+Option A: riding their bikes
+Option B: taking pictures
+Option C: going shopping
+Option D: doing some yoga

@@ -1,0 +1,48 @@
+1. Passage: Summer sale coupon
+We are having a summer sale at our store.
+All T-shirts are 40% off.
+All flip-flops are 20% off.
+All caps are 10% off.
+Question1: What kind of sale is the store having?
+Option A1: a summer sale
+Option B1: a winter sale
+Option C1: a back to school sale
+Option D1: a end of the year sale
+Question2: Which item is 40% off?
+Option A2: T-shirts
+Option B2: caps
+Option C2: shorts
+Option D2: flip-flops
+
+2. Passage: Joe’s pizza shop menu
+Pepperoni pizza : $4.50
+Hawaiian pizza : $5.00
+Cheese pizza : $3.50
+BBQ chicken pizza : $5.50
+Soda : $1.50
+Sparkling Water : $1.50
+Question1: What is the cheapest pizza?
+Option A1: cheese pizza
+Option B1: hawaiian pizza
+Option C1: pepperoni pizza
+Option D1: BBQ chicken pizza
+Question2: How much is a pepperoni pizza and soda?
+Option A2: $6.00
+Option B2: $5.50
+Option C2: $6.00
+Option D2: $6.50
+
+3. Passage: Why I like winter Venn Diagram
+Emma: building a snowman, drinking hot chocolate
+Sandy: having a snowball fight, eating warm soup
+Both: going skiing, going ice fishing
+Question1: What does Emma like about winter?
+Option A1: building a snowman
+Option B1: going snowboarding
+Option C1: making snow angels
+Option D1: having a snowball fight
+Question2: What do Emma and Sandy both like about winter?
+Option A2: going ice fishing
+Option B2: eating warm soup
+Option C2: drinking hot chocolate
+Option D2: building an igloo

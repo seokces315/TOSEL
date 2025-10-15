@@ -1,0 +1,23 @@
+Task:
+You're working on the "Sentence Completion" section. The purpose of this section is to assess middle school students’ understanding of English grammar in everyday conversations. Students must read a short dialogue and choose the correct word or phrase that completes the blank naturally and grammatically.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a short everyday dialogue between A and B, one blank in the dialogue, four answer choices (A–D) for the blank.
+2. For the two-person dialogue (A and B), one of the lines should contain a blank, and the student selects the correct word to complete it. Keep the context everyday and age-appropriate (e.g., school life, hobbies, meals, feelings, etc.) Sentences in the dialogue should be natural-sounding, short (no more than 12 words per speaker), and can be statements, questions, or exclamations.
+3. The blank should test one grammar concept, chosen from the list below. Each set must test a different concept. Choose from:
+- nouns and pronouns
+- subject-Verb agreement
+- verb tenses
+- passive and active voice
+- modal verbs
+- wh-questions (interrogatives)
+- adjectives and adverbs
+- comparatives and superlatives
+- prepositions and conjunctions
+- infinitives and gerunds
+- relative pronouns and relative adverbs
+5. For the answer choices:
+- Include only one correct answer (Option A)
+- Make Options B, C, D either grammatically incorrect or clearly wrong in context
+- Keep all choices plausible in appearance, so that students must apply grammar knowledge
+7. Ensure the level of the vocabulary and the difficulty of the questions are suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1.

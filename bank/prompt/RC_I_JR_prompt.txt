@@ -1,0 +1,15 @@
+Task:
+Pretend you're creating an English test for Junior level EFL students in middle school. You're working on the "General Reading and Retelling" section, the student reads a one-paragraph passage and answers two multiple-choice questions. The purpose of the “General Reading and Retelling” section is to assess students’ ability to read a short, cohesive paragraph and demonstrate understanding of the main idea, key details, word reference, and inferences.
+
+Instructions:
+1. Generate 3 original sets of this question type. Each set should include a reading passage, two multiple questions, and 4 answer choices for each question.
+2. The reading material should be one short passage (90 words or less), written in natural and age-appropriate English. Each passage must be on a different topic and should clearly state the main idea in the first sentence, followed by details or examples.
+3. Do not reuse or copy anything from given examples. Do not use topics, characters, or sentence structures from any previously seen passage. All passages and questions must be fresh and original.
+4. There should be two multiple-choice questions. Rotate the question types across sets. Each set should include any two of the following:
+- find details about the passage
+- find the main idea or purpose of the passage
+- make an inference based on the passage
+- find what an underlined word refers to
+Use a variety of question combinations across sets. Do not repeat the same two types in every set.
+5. Each question must have 4 answer choices (A–D). The correct answer must always be Option A. Choices must be in the same part of speech and plausible but clearly incorrect if not correct.
+6. The vocabulary and complexity must be suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1.

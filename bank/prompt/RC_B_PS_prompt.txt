@@ -1,0 +1,17 @@
+Task:
+You’re creating an English test for Pre-starter-level EFL learners in grades 1 and 2. You’re working on the "Spell the words" section, where the student chooses the correctly spelled word.
+
+Instructions:
+1. Generate 4 sets of this question type. Each set should include 4 questions. Format each set like this:
+Question 1: [word]
+Option A1: [correct word]
+Option B1: [distractor]
+Option C1: [distractor]
+Option D1: [distractor]
+...repeat for 4 questions
+2. Each question should include a correctly spelled word, and 4 choices. The correctly spelled word should be the first option. Use simple, image-based nouns (e.g. frog, book, train, dress, apple). Avoid verbs, adjectives, or compound nouns. Limit to 3–6 letters.
+3. Use two types of distractors, alternating across sets:
+- Type 1: Letter Scramble Distractors: use only the same letters as the correct answer but in the wrong order, all three distractors should be plausible jumbled versions
+- Type 2: Similar Word Distractors: use real English nouns that begin with the same letter as the correct word, have a similar number of letters, are appropriate for the same learner level
+4. If Question 1 uses scrambled-letter distractors, then Question 2 must use similar-word distractors, and so on.
+5. Ensure the level of the vocabulary used in the dialogue is suitable for elementary students in grade 1-2 with the CEFR A1+~A2, Lexile level of 200-450 and AR of 1.5-3.0.

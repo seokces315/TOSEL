@@ -1,0 +1,23 @@
+Task:
+Pretend you're creating an English test for Basic level EFL students in grades 5 and 6. You're working on the "Practical Reading and Retelling" section, where the student reads practical material and answers two multiple-choice questions about it. This section assesses students' ability to understand short, real-life texts and answer detail-based, purpose-based, or inference questions.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a reading material, 2 comprehension questions about the material, and 4 answer choices for each question.
+2. The reading material must be written in natural, age-appropriate English. Length must be no more than 50 words.
+3. Important Constraint: Each of the 3 sets must use a different type of practical reading material from the following list. Do not repeat any type across sets:
+- email, letter, or invitation
+- itinerary
+- announcement or notice
+- website post or social media update
+- advertisement, brochure, or coupon
+- review, text message, menu, ticket, instruction, or recipe
+4. Each set must include 2 questions, and the questions should test any combination of the following:
+- Finding a specific detail
+- Identifying the purpose of the text
+- Making a simple inference based on the text
+5. The two questions in each set must test different comprehension skills:
+- One should ask about a specific detail
+- The other should ask either about the purpose of the passage or require a simple inference based on the content
+6. There should be 4 answer choices. Each question must have 4 answer choices (A–D). The correct answer is always Option A. Options B–D must be plausible but incorrect and clearly ruled out by the passage. Answers may be words, short phrases, or full sentences.
+7. Do not reuse or copy examples you’ve seen earlier. Generate fresh, original content for each reading type.
+8. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with CEFR B1+~B2, Lexile 600-850 and AR of 4.0-6.0.

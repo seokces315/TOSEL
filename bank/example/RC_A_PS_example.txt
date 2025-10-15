@@ -1,0 +1,23 @@
+Question1: w_ale
+Option A1: h
+Option B1: i
+Option C1: j
+Option D1: k
+
+Question2: backp_ck
+Option A2: a
+Option B2: e
+Option C2: i
+Option D2: o
+
+Question3: ph_ne
+Option A3: o
+Option B3: i
+Option C3: a
+Option D3: u
+
+Question4: toot_brush
+Option A4: h
+Option B4: e
+Option C4: o
+Option D4: u

@@ -1,0 +1,17 @@
+Question1: guitar
+Option A1: guitar
+Option B1: tuigar
+Option C1: gatiur
+Option D1: gatuir
+
+Question2: school
+Option A2: school 
+Option B2: hscool 
+Option C2: csoolh 
+Option D2: shcool
+
+Question3: grass
+Option A3: grass
+Option B3: rgass
+Option C3: sgras
+Option D3: ssagr

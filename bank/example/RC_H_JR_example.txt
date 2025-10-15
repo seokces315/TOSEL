@@ -1,0 +1,43 @@
+1. Passage: Reviews: Amy Miller: I fell in love with this bakery after my husband got me a croissant from here. The croissant was crisp on the outside and soft on the inside. Afterwards, I tried their bagels and rolls. Both were delicious! I can’t wait to try their other baked goods. John Smith: I visit this bakery every week. I usually get their white bread, but if I’m feeling hungry, I also get their croissants and bagels. They never disappoint me with their bread.
+Question1: What has Amy NOT tried from the bakery?
+Option A1: white bread
+Option B1: rolls
+Option C1: bagels
+Option D1: croissants
+Question2: How often does John visit the bakery?
+Option A2: once a week
+Option B2: once in two weeks
+Option C2: once a month
+Option D2: once a year
+
+2. Passage: Dear grandma,
+How are you and grandpa doing at the farm? I’m writing to you to tell you that I’ll be coming over next week. I'll be staying at your farm for one week. Isn’t it exciting! 
+Dad will be driving me to the farm, so no need to pick me up.
+See you soon!
+- Josh
+Question1: How long will Josh stay at the farm?
+Option A1: seven days
+Option B1: six days
+Option C1: five days
+Option D1: four days
+Question2: Who will be driving Josh to the farm?
+Option A2: his dad
+Option B2: his mom
+Option C2: his sister
+Option D2: his brother
+
+3. Passage: coupon: Kim’s Pizzeria
+Free cheese crust!
+*When you purchase a large cheese pizza.
+Limit one coupon per day.
+Must present this coupon to the cashier.
+Question1: What must you buy to use the coupon?
+Option A1: a large cheese pizza
+Option B1: a small cheese pizza
+Option C1: a small pepperoni pizza
+Option D1: a large pepperoni pizza
+Question2: How many coupons can you use in one day?
+Option A2: one
+Option B2: two
+Option C2: three
+Option D2: four

@@ -1,0 +1,20 @@
+1. Passage: Description: a girl with curly hair is wearing a school uniform
+Question: The girl has _____ hair.
+Option A: curly
+Option B: white
+Option C: blonde
+Option D: straight
+
+2. Passage: Description: a fish tank has 2 fish swimming in it
+Question: There are _____ fish in the tank.
+Option A: two
+Option B: four
+Option C: five
+Option D: six
+
+3. Passage: Description: a woman is chopping vegetables in the kitchen
+Question: She is _____ some vegetables.
+Option A: cutting
+Option B: eating
+Option C: boiling
+Option D: baking

@@ -1,0 +1,23 @@
+1. Passage: Oliver has three dogs. He takes them on a walk to a park near his house. There, he plays catch with them for ten minutes. During the walk, he meets his neighbor’s dog, and their dogs play together. Finally, he goes home at 5 PM.
+Question1: How many dogs does Oliver have?
+Option A1: three
+Option B1: four
+Option C1: five
+Option D1: six
+Question2: How long does Oliver play catch with his dog?
+Option A2: ten minutes
+Option B2: fifteen minutes
+Option C2: twenty minutes
+Option D2: twenty-five minutes
+
+2. Passage: Victoria has a pet parrot. It is very colorful with red, blue, and green feathers. The parrot likes to repeat after Victoria and sing in the morning. Victoria loves her parrot.
+Question1: What kind of pet does Victoria have?
+Option A1: a bird
+Option B1: a cat
+Option C1: a fish
+Option C1: a dog
+Question2: What color feathers does the parrot NOT have?
+Option A2: yellow
+Option B2: blue
+Option C2: red
+Option D2: green

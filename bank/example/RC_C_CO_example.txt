@@ -1,0 +1,23 @@
+1. Passage: Description: a female nurse holding a needle
+Option A: nurse
+Option B: artist
+Option C: teacher
+Option D: police officer
+
+2. Passage: Description: a girl swimming
+Option A: I can swim
+Option B: I can jump
+Option C: I can paint
+Option D: I can dance
+
+3. Passage: Description: a pair of shoes
+Option A: shoes
+Option B: socks
+Option C: gloves
+Option D: stockings
+
+4. Passage: Description: a wooden chair
+Option A: That’s a new chair
+Option B: That’s a new bed
+Option C: That’s a new table
+Option D: That’s a new tile

@@ -1,0 +1,19 @@
+Task:
+Pretend you’re creating an English test for Starter level EFL learners in grades 3 and 4. You’re working on the "Listen and Retell" section. In this section, the students listen to a short dialogue between a boy and a girl and choose the best answer for each question that follows.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a dialogue, a question, and 4 image captions.
+2. A short dialogue is between a boy and a girl. Each speaks once, in alternating order. Keep each dialogue under 15 words.
+3. The dialogue must be about daily life topics: food, school, animals, hobbies, sports, weather, time, or objects.
+4. The vocabulary and grammar must be limited to:
+- Present simple or present continuous tense only
+- Common verbs and nouns known to 8–10 year-olds
+- No contractions, phrasal verbs, or complex clauses
+5. The question that tests comprehension of something clearly stated or implied in the dialogue. This may include: what, who, when, where, how many, or what action is being done.
+6. There should be 4 image captions as answer choices. The correct answer is always Option A, and only A should be clearly correct.
+7. All image captions must have:
+- The same part of speech (e.g., all nouns or all verb phrases)
+- Similar in category (e.g., all sports, all foods, etc.)
+- Fewer than 6 words each
+8. The dialogue and answer choices should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic. Vary the relationship between the speakers, as well as the topic of their conversation across sets.
+9. Ensure the level of the vocabulary used in the dialogue is suitable for elementary students in grade 3-4 with CEFR A2+~B1, Lexile 400-650 and AR of 2.5-4.5.

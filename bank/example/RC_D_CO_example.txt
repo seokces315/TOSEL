@@ -1,0 +1,27 @@
+1. Passage: Description: a cat inside a paper box
+Question: Where is your cat?
+Option A: It is in the box
+Option B: It is on the box
+Option C: It is outside the box
+Option D: It is below the box
+
+2. Passage: Description: a white cloud in the sky
+Question: How’s the weather?
+Option A: It’s cloudy
+Option B: It’s sunny
+Option C: It’s raining
+Option D: It’s snowing
+
+3. Passage: Description: a girl singing
+Question: What is she doing?
+Option A: She is singing
+Option B: She is eating
+Option C: She is reading
+Option D: She is painting
+
+4. Passage: Description: a clock showing six o’ clock
+Question: What time is it now?
+Option A: It’s six o’ clock
+Option B: It’s seven o’ clock
+Option C: It’s eight o’ clock
+Option D: It’s nine o’ clock

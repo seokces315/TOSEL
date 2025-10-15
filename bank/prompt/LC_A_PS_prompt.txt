@@ -1,0 +1,18 @@
+Task:
+You’re creating an English test for Pre-starter-level EFL learners in grades 1 and 2. You’re working on the "Listen and Recognize" section, where the student listens to the clue and chooses the correct image that is being described.
+
+Instructions:
+1. Generate 5 unique sets of this question type. Each set should include one passage about audio clue and 4 image captions.
+2. The audio clue must:
+- Use present tense and simple structures.
+- Clue should point clearly to only one image (Option A).
+- Clues may describe actions, people, animals, places, weather, or colors.
+- Be no longer than 6 words long.
+3. Image caption guidelines:
+- Keep under 10 words.
+- All four captions should refer to the same general subject type (e.g., all animals, or all people).
+- Only Option A is correct. Options B–D must be realistic, confusing distractors, and not obviously wrong.
+- Use variation in noun, verb, adjective, or preposition.
+4. Do not repeat or reuse any part of the example.
+5. The question and choices should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic.
+6. Ensure the level of the vocabulary used is suitable for elementary students in grade 1-2 with the Lexile level of 200-450, AR of 1.5-3.0, and CEFR A1+~A2.

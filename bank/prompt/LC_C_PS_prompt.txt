@@ -1,0 +1,13 @@
+Task:
+Pretend you’re creating an English test for Pre-starter-level EFL learners in grades 1 and 2. You’re working on the “Listen and Retell” section. In this section, the students listen to a short dialogue between a boy and a girl and choose the best answer for each question that follows.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set includes a dialogue, a question, and 3 image captions as answer choices. The student listens to the dialogue and chooses the option that best responds to the comprehension question that follows.
+2. The dialogue should be between a boy and a girl. The boy and the girl should each speak once, alternating. Dialogues should be varied based on the topic, relationships between speakers, and grammatical structures. The dialogue can be about a person, action, object, animal, food, weather, time, number, or amount of something. Each line in the dialogue should be no more than 6 words long.
+3. The question can require the student to find details about the dialogue (what, why, where, when, how, who questions). It should test for the student’s comprehension of the dialogue. The answers to the question should be about something that was mentioned in the dialogue.
+4. There should be three image captions as options, but ensure the first choice is the only suitable response to the question. The image captions must have:
+- The same part of speech (e.g., all nouns or all verb phrases)
+- Similar in category (e.g., all sports, all foods, etc.)
+5. The dialogue and answer choices should be varied across sets, using different grammatical structures and vocabulary, as well as not overlapping in topic. Vary the relationship between the speakers, as well as the topic of their conversation across sets.
+6. Do not include the word 'Dialogue:' before the conversation. Start directly with the conversation lines.
+7. Ensure the level of the vocabulary used in the dialogue is suitable for elementary students in grade 1-2 with the Lexile level of 200-450, AR of 1.5-3.0, and CEFR A1+~A2.

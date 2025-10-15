@@ -1,0 +1,19 @@
+Task:
+Pretend you're creating an English test for Junior level EFL students in middle school.  You’re working on the “Listen and Retell” section. In this section, the student listens to a passage and chooses the correct answer to the questions about it. This section evaluates students' listening comprehension skills, especially their ability to recall facts, understand main ideas, and draw logical inferences from short spoken passages.
+
+Instruction:
+1. Generate 5 sets of questions for this question type. Each set should include a passage, two multiple-choice questions about it, and 4 answer choices for each of the multiple choice questions.
+2. The passage should be no more than 60 words long. Use simple past or present tense. Each sentence should be 6–12 words long. Avoid complex or compound sentences. Total passage length must not exceed 50 words.
+3. There are four main categories of passage in this section. The four categories of passage in this section are:
+- The Story/Fable category usually involves some kind of story that can be used to tell a moral lesson.
+- The Journal category also tells a story, but it follows the everyday life of someone or something. It can involve things like special life events or unexpected occurrences. The goal is to emulate a person talking about what has happened to them during their day.
+- The Description category describes a person, object, animal, etc. It can also be a lecture or a presentation.
+- The Announcement category emulates announcements, schedule, or news that take place at stores, schools, the subway, etc. These are generally information-heavy, so when possible, they should be kept as short as possible to make it easier for test takers.
+Across the 5 sets, include approximately 2–3 passages from each of the four categories (Story, Journal, Description, Announcement).
+4. Each passage must have two different types of questions (e.g., one detail and one inference), not two of the same type. Distribute question types evenly across the full set of 10 passages. The multiple questions can require the student to do the following:
+- find details (who, what, when, where, and why)
+- find general idea, such as the title or main topic
+- make an inference
+5. The 4 answer choices do not have to be in complete sentences. They should not start with a capital letter or end with a period unless they are complete sentences.
+6. Ensure that there is only one possible answer for each question. The correct answer should always be the first option. All answer choices must be the same part of speech and in the same semantic category (e.g., all professions, all days, all locations). Distractors should be plausible but clearly incorrect based on the passage.
+7. Ensure the level of the vocabulary and the difficulty of the questions are suitable for middle school students in grade 7-8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1.

@@ -1,0 +1,19 @@
+Task:
+Pretend you’re creating an English test for Pre-starter-level EFL learners in grades 1 and 2. You’re working on "Look and Respond." This section tests the student’s ability to look at an image, and answer a question about the image.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include:
+- An image caption (a short phrase or sentence fragment that describes the image)
+- A question about the image, based on the description
+- Four complete sentence answer choices, all grammatically consistent, where only Option A is correct
+2. Format each set like this:
+Description: [short image caption]
+Question: [question related to the image]
+Option A: [correct full sentence]
+Option B: [distractor]
+Option C: [distractor]
+Option D: [distractor]
+3. There should be four options provided. All answer choices must begin with the same subject (e.g. "She is…", "It is…", "He is…”) and follow the same tense and sentence structure. Distractors should be grammatically correct and semantically related but clearly incorrect based on the image description.
+4. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+5. Do not repeat the content from the example, but only use it as a guideline.
+6. Ensure the level of the vocabulary used is suitable for  elementary students in grade 1-2 with the CEFR A1+~A2, Lexile level of 200-450 and AR of 1.5-3.0.

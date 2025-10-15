@@ -1,0 +1,12 @@
+Passage: Hailing from the village of Shpotivka (present-day Ukraine), the man known as the father of modern engineering mechanics, Stepen (later Stephen) Timoshenko, was a brilliant applied mechanical engineer who devoted his life to researching and transmitting ideas on structural and mechanical engineering. He worked as a researcher and teaching professor in various universities around the world, including ones in St. Petersburg, Gottingen, Kiev, Zagreb, and numerous institutions in the U.S., culminating with his professorship at Stanford. He pioneered research in elastic calculations and in buckling, an area of mechanics related to compressive stress. Timoshenko was a prolific author of engineering texts aimed at students from first-year undergraduates to advanced practitioners, and textbooks such as Strength of Materials, which was originally published in 1930, are still widely used to teach the next generation of modern engineers.
+Summary: Stepen Timoshenko came from a village in what is now Ukraine. He has been called the father of modern engineering mechanics. His life’s work revolved around researching and___ [A] ___ ideas on engineering. He worked as a professor in numerous international universities. His ___[B]____ works, including Strength of Materials, are still popular today.
+Question1: Choose the most suitable word for blank [A], connecting the summary to the passage.
+Option A1: disseminating
+Option B1: rejecting
+Option C1: concealing
+Option D1: buckling
+Question2: Choose the most suitable word for blank [B], connecting the summary to the passage.
+Option A2: instructional
+Option B2: repulsive
+Option C2: abandoned
+Option D2: obsolete

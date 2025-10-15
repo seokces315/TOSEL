@@ -1,0 +1,20 @@
+Task:
+Pretend you're creating an English test for Basic level EFL students in grades 5-6. You’re working on the Listen and Speak section, which tests the student’s understanding of everyday conversation. The student listens to a short dialogue between a man and a woman and chooses the correct response to what the last speaker says.
+
+Instructions:
+1. Generate 5 sets of this question type. Each question set should have a dialogue, a question, and 4 answer choices. Format each question set as follows:
+Passage:
+M: [line 1]
+W: [line 2]
+M: [line 3]
+Question: What’s next?
+Option A. [Correct option]
+Option B. [Distractor]
+Option C. [Distractor]
+Option D. [Distractor]
+2. The dialogue should be no more than 25 words long. In the dialogue, a man and a woman should talk to each other about an everyday topic. The man speaks first about an everyday topic, and the woman responds. Then the man responds to the woman. Use polite and natural spoken English in the present tense. The woman’s final (missing) line must be something a real person might say in everyday life. Keep sentences 4–10 words long.
+3. The students have to choose what the woman should say next. What the woman says next could be a response to the man’s question, or a statement. Across the 5 sets, vary the topics (e.g., school, hobbies, shopping, family, events), relationships (e.g., friends, classmates, family, teacher-student, store clerk-customer), and the place where the conversation takes place.
+4. The question should always ask ‘What’s next?’.
+5. There should be 4 answer choices on what the woman says next. All answer choices must be grammatically correct and plausible-sounding. Distractors should be semantically related but clearly less appropriate or slightly off-topic. Avoid obvious jokes or irrelevant responses.
+6. Ensure that there is only one possible answer for each question. The correct answer choice should always be the first one.
+7. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 5-6 with Lexile 600-850, AR of 4.0~6.0, and CEFR B1+~B2.

@@ -1,0 +1,22 @@
+Task:
+You’re creating an English test for High Junior level EFL learners in high school. You're working on the "Practical Reading and Retelling" section, where the student reads practical material and answers two multiple-choice questions about it. This section assesses students’ ability to understand short, real-life texts and answer detail-based, purpose-based, or inference questions.
+
+Instructions:
+1. Generate 2 sets of this question type. Each question set should include a reading material, 4 comprehension questions about the material, and 4 answer choices for each question.
+2. The reading material must be written in natural, age-appropriate English. Length must be no more than 120 words. Do not reuse or copy any content or structure from examples. Every passage must be fresh, original, and of a different type.
+3. Important constraints: Each set must use a different type of practical reading material from the following list:
+- advertisements
+- text messages
+- emails/letters
+- notices or announcements
+- websites
+- schedules
+4. Each set must include 4 multiple-choice questions per passage. The questions should test any combination of the following:
+- find details about the material
+- find purpose of the material
+- make an inference based on the material
+- find the intention of the writer/speaker
+- find synonym of a specific word in quotation marks. (“word”)
+5. Each question must have 4 answer choices (A–D). The correct answer is always Option A. Options B–D must be plausible but incorrect and clearly ruled out by the passage. Answers may be words, short phrases, or full sentences. Rotate the type of question asked across sets.
+6. Avoid overly obvious or ambiguous questions. Ensure students are challenged appropriately based on their reading level.
+7. The level of difficulty of each question must be appropriate for high school students in grade 9-12 with Lexile 1000-1300, AR of 7.5-10.0, and CEFR of C1+~C2.

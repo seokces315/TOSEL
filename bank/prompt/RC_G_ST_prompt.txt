@@ -1,0 +1,11 @@
+Task:
+You're working on the "Situational Writing" section. In this section, students are shown a picture and must choose the correct word to complete a sentence that describes the image. The focus is on basic vocabulary and grammar within real-world, visual contexts.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include an image caption, a sentence with a blank in it, and 4 answer choices.
+2. The image caption does not have to be in complete sentences, and It should not be longer than 10 words long. It must describe the scene naturally, and it should provide enough context to understand the correct answer.
+3. The sentence with a blank in it should match the scene in the picture description, use natural, age-appropriate grammar and phrasing description of the picture, and it should be no longer than 10 words long.
+4. There should be 4 answer choices. All options must be from the same part of speech or word category (e.g. all nouns, all prepositions, all verbs). Option A is always correct and the distractors (Options B–D) must be plausible but incorrect in the sentence. Organize B–D in increasing order of character length.
+5. The word category to be used for the blank should be rotated between sets and it can be in any of the following: noun, verb, preposition, time/date, adverb, adjective
+6. Use any provided examples only as a guide for format, not for content. Create new sets with different topics and captions.
+7. Ensure the level of the vocabulary and the difficulty of the questions are suitable for elementary students in grade 3-4 with CEFR A2+~B1, Lexile 1000-1300 and AR of 7.5-10.0. Vocabulary should be common, age-appropriate, and concrete when possible. Avoid abstract or low-frequency words.

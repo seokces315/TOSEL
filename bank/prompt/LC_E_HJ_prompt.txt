@@ -1,0 +1,17 @@
+Task:
+You’re working on the "Short Conversations" section. In this section, the students listen to a short dialogue between a man and woman and choose the best answer for a question that follows.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a dialogue, a question about the dialogue with 4 answer choices.
+2. The dialogue should be a conversation between a man and a woman. The man and the woman should take turns to speak to each other about a topic. Each speaker should speak 2–3 times, and each sentence should be short and natural. The total dialogue should not exceed 90 words. The sentences that the woman and the man say can be declarative, interrogative, or imperative. Use a mix of sentence types to reflect natural conversation. Include at least one question or request in the dialogue. The dialogue should be varied based on the topic, relationships between speakers, the place where the conversation takes place, and the situation of the speakers across sets. Each dialogue should be 90 words maximum.
+3. The multiple choice question can require the student to do the following about the dialogue:
+- Find the topic
+- Find the purpose
+- Find where the conversation takes place
+- Find the relationship between the speakers
+- Find detailed information about what the speaker’s problem, worries, or intentions
+- Find what the speaker suggested/requested/planned to do
+- Find details about the causes, methods, or time
+4. Answer choices should all be noun phrases or verb phrases, and match the grammatical structure of the correct answer. The choices do not have to be in complete sentences, and should not be longer than 10 words long.
+5. Ensure that there is only one possible answer for each question. The correct answer should always be the first option.
+6. Ensure the level of the vocabulary and the difficulty of the questions are suitable for high school students in grade 9-12 with Lexile 1000-1300 and AR of 7.5-10.0.

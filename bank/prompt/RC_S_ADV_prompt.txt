@@ -1,0 +1,11 @@
+Task:
+You’re creating an English test for Advanced level of adult EFL learners. You're working on the "General Reading and Retelling" section. In this section, the student reads a nonfiction passage and then completes a concise summary of that passage that contains two blanks.
+
+Instructions:
+1. Generate 5 sets of this question type. Each set should include a reading passage, a summary of the passage with 2 blanks in it, 2 multiple questions, with 4 answer choices for each question.
+2. The reading material should be no more than 130 words long, about a topic from areas such as science, history, psychology, art, or literature. Use a different topic for each set.
+3. The summary of the passage (maximum 70 words), should be accurately paraphrased, containing exactly two blanks labeled [A] and [B].
+4. There should be two multiple-choice questions, each asking the student to choose the correct word for one blank. Each question should include 4 answer choices (A–D) from the same part of speech. Option A must always be the correct answer.
+5. The choices for each blank must be grammatically correct in the sentence, but only Option A should make full contextual sense. Avoid using words from the passage verbatim in the summary.
+6. Do not repeat words in options and ensure all incorrect options are plausible but clearly wrong based on the passage.
+7. Ensure vocabulary and passage complexity is appropriate for adult EFL learners with Lexile 1000-1300 and AR of 7.5-10.0, and CEFR of C2+.

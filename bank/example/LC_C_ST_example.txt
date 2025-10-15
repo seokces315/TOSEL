@@ -1,0 +1,20 @@
+1. Boy: My mom made spaghetti. Girl: My mom made fried rice.
+Question: What did the girl’s mom make?
+Option A: fried rice
+Option B: spaghetti
+Option C: pizza
+Option D: noodles
+
+2. Boy: I see two turtles. Girl: I see four frogs.
+Question: What animal does the girl see?
+Option A: frogs
+Option B: turtles
+Option C: fish
+Option D: cats
+
+3. Boy: Is it raining? Girl: No, it’s snowing.
+Question: What is the weather like?
+Option A: snowing
+Option B: raining
+Option C: windy
+Option D: sunny

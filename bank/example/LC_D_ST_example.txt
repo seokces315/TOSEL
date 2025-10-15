@@ -1,0 +1,20 @@
+1. Passage:
+Question: What does your dad do?
+Option A: He works at a store.
+Option B: That’s my pencil.
+Option C: It’s cold outside.
+Option D: 
+
+2. Passage:
+Question: Can I eat a donut?
+Option A: Yes, but just one.
+Option B: No, he isn’t here.
+Option C: Yes, she can cook.
+Option D: 
+
+3. Passage:
+Question: I think I lost my doll.
+Option A: Where did you last see it?
+Option B: Can we go home now?
+Option C: How is the weather?
+Option D: 

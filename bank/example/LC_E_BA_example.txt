@@ -1,0 +1,23 @@
+1. W: What do you want for lunch?
+M: I want a ham and cheese sandwich.
+Question: What does the man want for lunch?
+Option A: ham and cheese sandwich
+Option B: pasta
+Option C: croissant
+Option D: pizza
+
+2. W: Which animal do you want to see first?
+M: I want to see the zebra. It’s my favorite animal.
+Question: What is the man’s favorite animal?
+Option A: zebra
+Option B: bear
+Option C: hippo
+Option D: lion
+
+3. W: What did you do yesterday?
+M: I had a cello lesson.
+Question: What did the man do yesterday?
+Option A: playing the cello
+Option B: playing the flute
+Option C: playing the trumpet
+Option D: playing the guitar

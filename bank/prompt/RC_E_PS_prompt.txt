@@ -1,0 +1,39 @@
+Task:
+You’re creating an English test for Pre-starter-level EFL learners in Grades 1 and 2. You’re working on the "Read and Retell" section. This section tests the student’s ability to read a short passage and answer comprehension questions about it.
+
+Instructions:
+1. Generate 5 sets of this question type.
+Each set should include:
+- 1 reading passage (between 42–45 words long)
+- 4 multiple-choice questions (except for riddles, which have only 1)
+- 4 answer choices per question
+2. Passage Types (diversify across sets):
+- Riddle
+- Diary entry
+- Short descriptive story about a character
+- Simple narrative about a school or home activity
+3. If using a riddle, include only 1 question, and it must be either:
+- "What am I?"
+- "What are they?"
+4. Question Writing Guidelines:
+- Each question must be based on explicit information mentioned in the passage
+- Questions must not overlap or hint at answers for each other
+- Each passage must include questions that ask for different types of details (e.g. time, who, what, action, quantity, etc.)
+5. Answer Choice Rules:
+- Always provide 4 answer choices
+- Only Option A should be the correct answer
+- Choices should not overlap in meaning or grammar
+- Choices do not need to be full sentences
+- If the answer choices involve numbers, quantities, or amounts, organize the three distractors in increasing numerical order (from smallest to largest). The correct answer (Option A) should always appear first, but the distractors must follow this order.
+See example:
+- Option A: 6 years
+- Option B: 5 years
+- Option C: 7 years
+- Option D: 8 years
+- Organize the answer choices in increasing order of word length or character length (from shortest to longest). The correct answer must always be Option A, and the distractor choices (Options B, C, and D) must be organized in ascending length.
+See example:
+- Option A: caps
+- Option B: shorts
+- Option C: T-shirts
+- Option D: flip-flops
+6. Use only vocabulary and grammar suitable for Grades 1–2 EFL students at Lexile 200–450 and AR 1.5–3.0. Avoid complex sentence structures.

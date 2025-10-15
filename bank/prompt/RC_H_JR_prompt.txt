@@ -1,0 +1,20 @@
+Task:
+Pretend you're creating an English test for Junior level EFL students in grades 7 and 8. You're working on the "Practical Reading and Retelling" section, where the student reads practical material and answers two multiple-choice questions about it. This section assesses students’ ability to understand short, real-life texts and answer detail-based, purpose-based, or inference questions.
+
+Instructions:
+1. Generate 3 sets of this question type. Each set should include a reading material, 2 comprehension questions about the material, and 4 answer choices for each question.
+2. The reading material must be written in natural, age-appropriate English. Length must be no more than 60 words. Do not reuse or copy any content or structure from examples. Every passage must be fresh, original, and of a different type.
+3. Important constraints: Each set must use a different type of practical reading material from the list below:
+- email, letter, or invitation
+- table, chart, or graph
+- itinerary
+- announcement or notice
+- website post or social media update
+- advertisement, brochure, or coupon
+- review, text message, menu, ticket, instruction, or recipe
+4. Each set must include 2 questions, and the questions should test any combination of the following:
+- Finding a specific detail
+- Identifying the purpose of the text
+- Making an inference based on the text
+5. There should be 4 answer choices. Each question must have 4 answer choices (A–D). The correct answer is always Option A. Options B–D must be plausible but incorrect and clearly ruled out by the passage. Answers may be words, short phrases, or full sentences.
+6. The level of difficulty of each question must be appropriate for Junior level EFL learners in grades 7–8 with Lexile 800-1100, AR of 5.5~8.0, and CEFR B2+~C1. Avoid overly obvious or ambiguous questions. Ensure students are challenged appropriately based on their reading level.

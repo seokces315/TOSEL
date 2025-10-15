@@ -1,0 +1,17 @@
+Question1: king
+Option A1: king
+Option B1: gikn
+Option C1: nkig
+Option D1: gnki
+
+Question2: messy
+Option A2: messy
+Option B2: market
+Option C2: milking
+Option D2: massive
+
+Question3: grass
+Option A3: grass
+Option B3: rgass
+Option C3: sgras
+Option D3: ssagr

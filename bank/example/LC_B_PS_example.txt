@@ -1,0 +1,23 @@
+Question1: Do you have a sister?
+Option A1: Yes, I do.
+Option B1: No, he isn’t.
+Option C1: Yes, she can.
+Option D1: No, she doesn’t.
+
+Question2: What color is her dress?
+Option A2: It’s pink.
+Option B2: I want one.
+Option C2: That’s mine.
+Option D2: She has it.
+
+Question3: I see many stars.
+Option A3: Me too.
+Option B3: It’s mine.
+Option C3: Just start now.
+Option D3: You’re welcome.
+
+Question4: Who is that boy?
+Option A4: He’s my brother.
+Option B4: I like seafood.
+Option C4: It is very small.
+Option D4: My grandpa is here.

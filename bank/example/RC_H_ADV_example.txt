@@ -1,0 +1,55 @@
+1. Passage: Text messages: Katia: Sorry to “bother” you on your day off, Mino. Can’t figure out how to get into the store. Mrs. Chang is not on duty yet. Mino: No worries. Go to the white box on the wall next to the door. Open the cover and move the dial to this code: 6 9 1 0. A lock box will open. There’s a security card and key inside. Katia: Okay wait… Katia: Done. Mino: The card disables the alarm. Tap it against the black magnetic reader by the door. Katia: Uh oh. I put the key in first and now the alarm is going off! And I can hear a phone ringing inside. Mino: Don’t panic. Probably just the security people calling. Go in and answer the phone. Mino: What happened? Katia: Sorry, it was the security people on the line. I had to deal with them. Actually, Mrs. Chang ended up calling me too. I totally messed up. :( She was nice about it, though. She’s a cool boss. Anyway, thanks for your help.
+Question1: What is the most likely relationship between Katia and Mino?
+Option A1: employee - employee
+Option B1: manager - customer
+Option C1: manager - security worker
+Option D1: customer - security worker
+Question2: According to Mino, how can Katia disable the alarm before opening a door?
+Option A2: tap a card on a reader
+Option B2: use Mrs. Chang’s key
+Option C2: open up a white box
+Option D2: type a code into a device
+Question3: What does Minho likely mean when he writes, “What happened?”?
+Option A3: What did the caller say?
+Option B3: Did you find my card?
+Option C3: Did you see the box?
+Option D3: What made the alarm ring?
+Question4: Which of the following is closest in meaning to the quoted word “bother”?
+Option A4: disturb
+Option B4: help
+Option C4: ask
+Option D4: remind
+
+2. Passage: Email: Hello Maria,
+Reservation code: XCO8013
+Your flight with CareAir leaves within the next 24 hours. To save time, you can check in now! As a CareAir mileage rewards member, please check that your CareID number is correctly entered with your booking in order to enjoy maximum CareAir Mileage Points.
+Flight CRA2175
+Departs: Zevonia (ZXW) 7:00 AM, 30 May, 2018 Terminal 2
+Arrives: Yllington (YVL) 8:15 AM, 30 May, 2018 Terminal 1 (flight time: 75 minutes)
+Your inflight entertainment includes our award-winning magazine, Care in Flight. Our Internet on Board is available on flights of over three hours for the low fee of $5.99. Tablet rental services are also available on flights of over three hours for just $6.99 on a first-come, first served basis.
+Cut-off time at airport
+The check in and baggage drop cut-off time for your flight is 45 minutes before the scheduled departure time.
+Baggage information
+Checked baggage:
+- Maximum allowance: 3 checked bags. (Maximum weight 20 kg)
+- No fee for the first checked bag. Carry-on bags: 1 carry-on (53 cm X 23 cm X 38 cm) + 1 personal item (40 cm X 15 cm X 30 cm)
+Question1: Where should a friend meeting Maria’s flight pick her up?
+Option A1: YVL, Terminal 1
+Option B1: YVL, Terminal 2
+Option C1: ZXW, Terminal 1
+Option D1: ZXW, Terminal 2
+Question2: When is the latest time that Maria can check in for her flight on 30 May, 2018?
+Option A2: 6:15 AM
+Option B2: 5:00 AM
+Option C2: 7:00 AM
+Option D2: 8:15 AM
+Question3: Which of the following is true about Maria’s flight?
+Option A3: There is a fee to check a second bag
+Option B3: Tablet rental is available for $5.99
+Option C3: Carry-on baggage is limited to one item
+Option D3: CareAir Mileage Points users get free in-flight internet
+Question4: Which of the following can be inferred about Maria’s flight?
+Option A4: There are fewer available rental tablets than seats
+Option B4: Passengers are provided a choice of three meals
+Option C4: Travel insurance is included in each ticket
+Option D4: Entertainment consoles are placed in the back of seats
