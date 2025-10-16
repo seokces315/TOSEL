@@ -1,15 +1,19 @@
 from parser import parse_args
 from loaders.prompt_loader import load_prompt
 from loaders.example_loader import load_example
+from loaders.config_loader import load_config
 
 
 def main(args):
 
     # Initialize variables from input arguments
-    model_id = args.model_id
     comprehension_type = args.comprehension_type
     problem_type = args.problem_type
     level = args.level
+
+    # Load config file (YAML)
+    config_path = f"../config/config.yaml"
+    config = load_config(config_path=config_path)
 
     # Load prompt & example
     prompt_path = (
@@ -21,12 +25,8 @@ def main(args):
     prompt = load_prompt(prompt_path=prompt_path)
     example = load_example(example_path=example_path)
 
-    print(prompt)
-    print()
-    print(example)
-
     # Run pipeline
-    # base_chain(model_id, prompt, example)
+    # base_chain(config, prompt, example)
     # 1. llm_generator
     # 2. llm_parser(return type : Json)
 
