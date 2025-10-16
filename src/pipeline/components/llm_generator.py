@@ -1,29 +1,31 @@
 import sys
 import os
 
+from langchain import LLMChain
+from langchain import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_openai import ChatOpenAI
-from langchain_core.prompts import PromptTemplate
 
-from ....config import config as cfg
+from config import config as cfg
 
 
 # Function to build LLM generator
-def get_llm_generator(model_id, prompt, example):
+def get_llm_generator(model_id):
 
     # Create generator object
-    generator = ChatOpenAI(
-        openai_api_key=cfg[config]["GPT-4o"]["api_key"],
+    llm = ChatOpenAI(
+        openai_api_key=cfg[model_id]["generator"]["api_key"],
         model_name="GPT-4o",
-        temperature=cfg["GPT-4o"]["temperature"],
-        top_p=cfg["GPT-4o"]["top_p"],
+        temperature=cfg[model_id]["generator"]["temperature"],
+        top_p=cfg[model_id]["generator"]["top_p"],
         response_format={"type": "json_object"},
     )
-    print("get llm generator")
-    return generator
+
+    return llm
 
 
 # Function to define prompt template
-def define_prompt_template(model_id):
+def get_prompt_template(prompt, example):
     """
     TODO
     prompt, example 인자 전달받아 PromptTemplate 생성
@@ -36,7 +38,16 @@ def define_prompt_template(model_id):
     return -> prompt_template
     """
 
+    prompt = PromptTemplate(input_variables=[], template=template)
+    return template
+
 
 # Function to build LLM generator
-def build_1st_chain(generator, prompt_template):
-    pass
+def generating_chain(model_id, prompt, example):
+
+    llm = get_llm_generator(model_id)
+    template = get_prompt_template(prompt, example)
+
+    llm_generator = LLMChain(prompt=template, llm=llm)
+
+    return llm_generator

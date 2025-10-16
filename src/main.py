@@ -25,7 +25,7 @@ def main(args):
     example = load_example(example_path=example_path)
 
     # Run pipeline
-    # base_chain(model_id, prompt, example)
+    chain_run(model_id, prompt, example)
     # 1. llm_generator
     # 2. llm_parser(return type : Json)
 
