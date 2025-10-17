@@ -34,9 +34,65 @@ def get_prompt_template(prompt, example):
     프롬프트 엔지니어링
     /"/"/"
 
+
     prompt_template = PromptTemplate(input_variables=[], template=template)
     return -> prompt_template
     """
+
+    if not passage:
+        template = f"""
+        You are a highly skilled English test generation assistant.
+
+        <Main Task>
+        {prompt_content}
+        </Main Task>
+
+        <Reference Example>
+        The following example shows the general format and structure of questions.
+        Use it ONLY as a stylistic and structural reference.
+        Do NOT copy or paraphrase the content. Follow the <Main Task> instructions strictly.
+        
+        {example_content}
+        </Reference Example>
+
+        <Output Requirements>
+        - Follow ALL details and constraints described in <Main Task>.
+        - Use the example ONLY to mirror the format (dialogue → question → 4 options).
+        - Ensure that the generated question aligns with the task definition and difficulty level.
+        - Maintain consistency in tone, grammar, and structure across all question sets.
+        </Output Requirements>
+
+        Generate the output below:
+        Question:
+        Options:
+        """
+    else:
+        template = f"""
+        You are a highly skilled English test generation assistant.
+
+        <Main Task>
+        {prompt_content}
+        </Main Task>
+
+        <Reference Example>
+        The following example shows the format and structure of questions using a given passage.
+        Use it ONLY as a structural guide.
+        Do NOT modify or recreate the passage. Follow the <Main Task> strictly.
+        
+        {example_content}
+        </Reference Example>
+
+        <Output Requirements>
+        - Use the given passage exactly as it is. Do NOT create a new passage.
+        - Follow all requirements and constraints from <Main Task>.
+        - Use the example for format only.
+        - Ensure the level, structure, and language meet advanced EFL standards.
+        </Output Requirements>
+
+        Generate the output below:
+        Question:
+        Options:
+        """
 
     prompt = PromptTemplate(input_variables=[], template=template)
     return template
