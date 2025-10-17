@@ -1,20 +1,19 @@
 from parser import parse_args
+
 from loaders.prompt_loader import load_prompt
 from loaders.example_loader import load_example
-from loaders.config_loader import load_config
 
-from pipeline.base_chain import chain_run
+from utils.config import get_chain_config
+
+from pipeline.base_chain import build_complete_chain
 
 
 def main(args):
 
-    # Initialize variables from input arguments
-    model_id = args.model_id
+    # Load prompt & example
     comprehension_type = args.comprehension_type
     problem_type = args.problem_type
     level = args.level
-
-    # Load prompt & example
     prompt_path = (
         f"../bank/prompt/{comprehension_type}_{problem_type}_{level}_prompt.txt"
     )
@@ -25,9 +24,9 @@ def main(args):
     example = load_example(example_path=example_path)
 
     # Run pipeline
-    # base_chain(model_id, prompt, example)
-    # 1. llm_generator
-    # 2. llm_parser(return type : Json)
+    model_id = args.model_id
+    chain_config = get_chain_config(model_id=model_id)
+    llm_chain = build_complete_chain(chain_config, prompt, example)
 
 
 if __name__ == "__main__":

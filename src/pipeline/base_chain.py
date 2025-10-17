@@ -1,11 +1,10 @@
-from components.llm_generator import get_llm_generator
-from components.llm_parser import parsing_llm
+from components.llm_generator import build_generator_chain
 
 
-def chain_run(model_id, prompt, example):
-    generator = get_llm_generator(model_id)
-    parser = parsing_llm(model_id)
+# Function to build the complete LLM pipeline (Generator + Parser)
+def build_complete_chain(chain_config, prompt, example):
 
-    output1 = generator.predict()
-    output2 = parser.run(output1)
-    return output1, output2
+    # Get LLM generator chain - 1st chain
+    generator_chain = build_generator_chain(chain_config, prompt, example)
+
+    # Get LLM parser chain - 2nd chain
