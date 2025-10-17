@@ -8,10 +8,9 @@ def generate_llm_generator(chain_config):
     # Create generator object
     generator = ChatOpenAI(
         openai_api_key=chain_config.generator.api_key,
-        model_id=chain_config.generator.model_id,
+        model=chain_config.generator.model_id,
         temperature=chain_config.generator.temperature,
         top_p=chain_config.generator.top_p,
-        response_format={"type": "json_object"},
     )
 
     return generator
@@ -19,17 +18,27 @@ def generate_llm_generator(chain_config):
 
 # Function to define prompt template
 def define_prompt_template(prompt, example):
+    # Design a template for generating questions
+    template = f"""
+    You are a helpful English test assistant.
+    <Instruction>
+    {prompt}
+    </Instruction>
+        
+    <Example>
+    Here is some example.
+    {example}
+    </Example>
+        
+    Based on the shape of Example question above, Generate Question and Options.
+    Question:
+    Options:
     """
-    TODO
-    prompt, example 인자 전달받아 PromptTemplate 생성
 
-    template = f/"/"/"
-    프롬프트 엔지니어링
-    /"/"/"
-
+    # Create a PromptTemplate object
     prompt_template = PromptTemplate(input_variables=[], template=template)
-    return -> prompt_template
-    """
+
+    return prompt_template
 
 
 # Function to build LLM generator chain

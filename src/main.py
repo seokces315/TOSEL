@@ -7,9 +7,12 @@ from utils.config import get_chain_config
 
 from pipeline.base_chain import build_complete_chain
 
+import warnings
+
+warnings.filterwarnings(action="ignore")
+
 
 def main(args):
-
     # Load prompt & example
     comprehension_type = args.comprehension_type
     problem_type = args.problem_type
@@ -23,10 +26,13 @@ def main(args):
     prompt = load_prompt(prompt_path=prompt_path)
     example = load_example(example_path=example_path)
 
-    # Run pipeline
+    # Initialize LLM chain pipeline
     model_id = args.model_id
     chain_config = get_chain_config(model_id=model_id)
-    llm_chain = build_complete_chain(chain_config, prompt, example)
+    complete_chain = build_complete_chain(chain_config, prompt, example)
+
+    result = complete_chain.invoke({})
+    print(result["text"])
 
 
 if __name__ == "__main__":

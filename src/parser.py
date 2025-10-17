@@ -3,7 +3,6 @@ import argparse
 
 # Args parser
 def parse_args():
-
     # Define parser
     parser = argparse.ArgumentParser(description="TOSEL question generation settings")
 

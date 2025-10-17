@@ -5,17 +5,13 @@ TOSEL
 │   ├── example/                    # 문제 영역/난이도/유형별 Prompt
 │   └── prompt/                     # 문제 영역/난이도/유형별 Example
 │
-├── config/
-│   └── config.yaml                 # 모델 설정, API Key, temperature 등 설정
-│
 ├── log/                            # 실행 로그 저장 디렉토리
 ├── output/                         # 결과 JSON/Excel 저장 디렉토리
 │
 ├── src/
 │   ├── loaders/                    # Prompt / Example 파일 로더
 │   │   ├── __init__.py
-│   │   ├── config_loader.py        # Config 로더
-│   │   └── example_loader.py       # Example 로더
+│   │   ├── example_loader.py       # Example 로더
 │   │   └── prompt_loader.py        # Prompt 로더
 │   │ 
 │   ├── pipeline/                   # LLM 기반 처리 파이프라인
@@ -28,6 +24,7 @@ TOSEL
 │   │
 │   ├── utils/                      # 유틸리티 함수
 │   │   ├── __init__.py
+│   │   ├── config.py               # 모델 설정, API Key, temperature 등 설정
 │   │   ├── logger.py               # 로깅 유틸 함수
 │   │   └── result_manager.py       # 결과 저장 및 Json(Excel) 관리 모듈
 │   │ 
