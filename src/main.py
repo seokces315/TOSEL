@@ -11,8 +11,13 @@ import warnings
 
 warnings.filterwarnings(action="ignore")
 
+import time
+
 
 def main(args):
+    # Measure execution time
+    start_time = time.time()
+
     # Load prompt & example
     comprehension_type = args.comprehension_type
     problem_type = args.problem_type
@@ -31,8 +36,14 @@ def main(args):
     chain_config = get_chain_config(model_id=model_id)
     complete_chain = build_complete_chain(chain_config, prompt, example)
 
+    # Execute the chain to generate a response
     result = complete_chain.invoke({})
-    print(result["text"])
+    print(result.get("text"))
+
+    # Print execution time
+    end_time = time.time()
+    elapsed = end_time - start_time
+    print(f"\nElapsed time: {elapsed:.2f}초")
 
 
 if __name__ == "__main__":
