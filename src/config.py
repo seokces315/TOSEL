@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 config = {
-    "GPT_4o": {
+    "gpt-4o": {
         "generator": {
             "api_key": os.getenv("GPT_4o"),
             "model_id": "gpt-4o",

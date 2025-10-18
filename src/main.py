@@ -7,7 +7,6 @@ from pipeline.base_chain import chain_run
 
 
 def main(args):
-
     # Initialize variables from input arguments
     model_id = args.model_id
     comprehension_type = args.comprehension_type
@@ -25,6 +24,8 @@ def main(args):
     example = load_example(example_path=example_path)
 
     # Run pipeline
+    print(f"start chain run --")
+    print(f"model_id: {model_id}")
     chain_run(model_id, prompt, example)
     # 1. llm_generator
     # 2. llm_parser(return type : Json)
