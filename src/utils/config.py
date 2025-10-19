@@ -1,41 +1,33 @@
 import os
 
 from dotenv import load_dotenv
-from dataclasses import dataclass
+from pydantic_settings import BaseSettings
 
 # Load environmental variables
 load_dotenv()
 
 
-@dataclass
-class ModelConfig:
+# Pydantic class
+class GeneratorConfig(BaseSettings):
     api_key: str
     model_id: str
     temperature: float
     top_p: float
 
-
-@dataclass
-class ChainConfig:
-    generator: ModelConfig
-    parser: ModelConfig
+    class Config:
+        env_prefix = "GENERATOR_"
 
 
-# Function to get configuration objects for LLM chain
-def get_chain_config(model_id):
-    chain_config = ChainConfig(
-        generator=ModelConfig(
-            api_key=os.getenv("API_KEY"),
-            model_id=model_id,
-            temperature=0.7,
-            top_p=0.9,
-        ),
-        parser=ModelConfig(
-            api_key=os.getenv("API_KEY"),
-            model_id=model_id,
-            temperature=0.0,
-            top_p=1.0,
-        ),
-    )
+class ParserConfig(BaseSettings):
+    api_key: str
+    model_id: str
+    temperature: float
+    top_p: float
 
-    return chain_config
+    class Config:
+        env_prefix = "PARSER_"
+
+
+class ChainConfig(BaseSettings):
+    generator: GeneratorConfig
+    parser: ParserConfig

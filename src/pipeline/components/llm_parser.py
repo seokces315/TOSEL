@@ -2,8 +2,6 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-from dataclasses import dataclass
-
 
 # Function to generate LLM parser
 def generate_llm_parser(chain_config):

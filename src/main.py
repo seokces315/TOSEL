@@ -3,7 +3,7 @@ from parser import parse_args
 from loaders.prompt_loader import load_prompt
 from loaders.example_loader import load_example
 
-from utils.config import get_chain_config
+from utils.config import ChainConfig, GeneratorConfig, ParserConfig
 
 from pipeline.base_chain import build_complete_chain
 
@@ -33,7 +33,10 @@ def main(args):
 
     # Initialize LLM chain pipeline
     model_id = args.model_id
-    chain_config = get_chain_config(model_id=model_id)
+    chain_config = ChainConfig(
+        generator=GeneratorConfig(model_id=model_id),
+        parser=ParserConfig(model_id=model_id),
+    )
     complete_chain = build_complete_chain(chain_config, prompt, example)
 
     # Execute the chain to generate a response
