@@ -33,11 +33,12 @@ def main(args):
 
     # Initialize LLM chain pipeline
     model_id = args.model_id
+    template_type = args.template_type
     chain_config = ChainConfig(
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
-    complete_chain = build_complete_chain(chain_config, prompt, example)
+    complete_chain = build_complete_chain(chain_config, template_type, prompt, example)
 
     # Execute the chain to generate a response
     result = complete_chain.invoke({})
