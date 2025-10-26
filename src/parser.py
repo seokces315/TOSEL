@@ -12,6 +12,7 @@ def parse_args():
 
     parser.add_argument("--model_id", default="gpt-4o", type=str, help="Model type")
     parser.add_argument("--template_type", default="xml", type=str)
+    parser.add_argument("--parsing_type", default="sohee", type=str, help="Test")
 
     args = parser.parse_args()
 

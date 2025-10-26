@@ -13,6 +13,8 @@ warnings.filterwarnings(action="ignore")
 
 import time
 
+import json
+
 
 def main(args):
     # Measure execution time
@@ -34,15 +36,16 @@ def main(args):
     # Initialize LLM chain pipeline
     model_id = args.model_id
     template_type = args.template_type
+    parsing_type = args.parsing_type
     chain_config = ChainConfig(
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
-    complete_chain = build_complete_chain(chain_config, template_type, prompt, example)
-
-    # Execute the chain to generate a response
-    result = complete_chain.invoke({})
-    print(result.get("text"))
+    complete_chain = build_complete_chain(
+        chain_config, template_type, prompt, example, parsing_type
+    )
+    print(complete_chain)
+    # print(json.dumps(complete_chain, indent=2, ensure_ascii=False))
 
     # Print execution time
     end_time = time.time()

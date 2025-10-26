@@ -17,11 +17,11 @@ TOSEL
 │   ├── pipeline/                   # LLM 기반 처리 파이프라인
 │   │   ├── __init__.py
 │   │   ├── base_chain.py           # Generator-Parser 체인 실행 제어
+│   │   ├── schema.py               # 문항 구성 요소에 대한 Data Schema
 │   │   └── components/
 │   │       ├── __init__.py
 │   │       ├── llm_generator.py    # GPT 기반 문제 생성기 (LangChain LLMChain)
-│   │       ├── llm_parser.py       # GPT 기반 JSON 파서 (LangChain + JsonOutputParser)
-│   │       └── schmea.py           # 문항 구성 요소에 대한 Data Schema
+│   │       └── llm_parser.py       # GPT 기반 JSON 파서 (LangChain + JsonOutputParser)
 │   │
 │   ├── utils/                      # 유틸리티 함수
 │   │   ├── __init__.py

@@ -4,13 +4,13 @@ from langchain.chains import LLMChain
 
 
 # Manage multiple prompt templates for item generation
-class TemplateManager:
+class GenerationTemplateManager:
     # Initializer
     def __init__(self, template_type):
         self.template_type = template_type
 
     # Template Getter
-    def get_template(self, prompt, example):
+    def get_generation_template(self, prompt, example):
         if self.template_type == "xml":
             template = f"""
             You are an expert English test item writer.
@@ -67,8 +67,8 @@ def generate_llm_generator(chain_config):
 # Function to define prompt template
 def define_prompt_template(template_type, prompt, example):
     # Define a question generation template using TemplateManager
-    template_manager = TemplateManager(template_type=template_type)
-    template = template_manager.get_template(prompt=prompt, example=example)
+    template_manager = GenerationTemplateManager(template_type=template_type)
+    template = template_manager.get_generation_template(prompt=prompt, example=example)
 
     # Create a PromptTemplate object
     prompt_template = PromptTemplate(input_variables=[], template=template)
