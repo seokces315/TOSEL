@@ -35,14 +35,14 @@ def main(args):
 
     # Initialize LLM chain pipeline
     model_id = args.model_id
-    template_type = args.template_type
-    parsing_type = args.parsing_type
+    generation_template_type = args.generation_template_type
+    parsing_template_type = args.parsing_template_type
     chain_config = ChainConfig(
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
     complete_chain = build_complete_chain(
-        chain_config, template_type, prompt, example, parsing_type
+        chain_config, generation_template_type, prompt, example, parsing_template_type
     )
     print(complete_chain)
     # print(json.dumps(complete_chain, indent=2, ensure_ascii=False))

@@ -7,13 +7,14 @@ from langchain_core.output_parsers import JsonOutputParser
 
 class ParsingTemplateManager:
     # Initializer
-    def __init__(self, parsing_type):
-        self.parsing_type = parsing_type
+    def __init__(self, parsing_template_type):
+        self.parsing_template_type = parsing_template_type
 
     # Template Getter
     def get_parsing_template(self):
-        if self.parsing_type == "seokc":
+        if self.parsing_template_type == "seokc":
             template = """
+            <Role>
             You are a rule-based text-to-JSON parser.
             You will be given several Outputs, and each Output may contain multiple questions.
             
@@ -56,15 +57,12 @@ class ParsingTemplateManager:
             2. "ask"
                 - An object containing the question text.
                 - The "ask.text" field should contain the complete question as it appears in the source text.
-                - If the original text contains a label or prefix, remove it and keep only the question text.
+                - If the original text contains a label or prefix, remove it and treat the remaining text as the question content.
                 
             3. "choices"
-
-            Field rules:
-            2. "choice.options"
-                - A list of four answer choices in order.
-                - You MUST preserve the labels (A., B., C., D.) if they exist.
-                - If the source uses A1/B1 or A2/B2 style, normalize them to "A.", "B.", "C.", "D." in the output.
+                - A list of objects representing the answer choices in their original order.
+                - If the original text contains a label of prefix, use the remaining text as the choice content.
+                - Normalize any option labels to a consistent style (e.g., "(A)", "(B)", "(C)", "(D)"), adjusting automatically for the number of choices.
 
             4. If multiple questions (Question1, Question2, ...) share the same material (same Passage / Summary / Dialogue), include that same material content again in each JSON object.
 
