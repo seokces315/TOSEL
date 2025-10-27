@@ -1,7 +1,6 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
-
 from langchain_core.output_parsers import JsonOutputParser
 
 
@@ -16,13 +15,17 @@ class ParsingTemplateManager:
             template = """
             <Role>
             You are a rule-based text-to-JSON parser.
+            </Role>
+            
+            <Goal>
             You will be given several Outputs, and each Output may contain multiple questions.
+            </Goal>
             
             <Instruction>
             Parse the provided Outputs into a JSON array.
             Each Output corresponds to one question item.
             
-            Output Format:
+            JSON Structure:
             Each JSON object must strictly follow this structure:
             {{
                 "materials": [] | [
@@ -63,18 +66,24 @@ class ParsingTemplateManager:
                 - A list of objects representing the answer choices in their original order.
                 - If the original text contains a label of prefix, use the remaining text as the choice content.
                 - Normalize any option labels to a consistent style (e.g., "(A)", "(B)", "(C)", "(D)"), adjusting automatically for the number of choices.
-
-            4. If multiple questions (Question1, Question2, ...) share the same material (same Passage / Summary / Dialogue), include that same material content again in each JSON object.
-
-            5. Do NOT add any explanations, reasoning steps, or answers. Only structure and text from the provided example.
+                
+            4. If multiple questions are based on the same material, include that material content in each JSON object.
             
-            Important:
-            - Return one JSON object per question.
-            - Output all JSON objects in a Python-style list [ ... ].
-            - Do not include any text or explanation outside the list.
-            - Ensure each JSON object is syntactically valid and comma-separated within the list.
-            
+            5. Do NOT include any explanations, reasoning, or answers. Only reproduce the structure and text as provided.
             </Instruction>
+            
+            <Output Format>
+            Return one JSON object per question.
+            Collect all JSON objects into a single list using Python-style array brackets [ ... ].
+            Do not include any text, comments, or explanation outside the list.
+            Ensure each JSON object is syntactically valid and comma-separated within the array.
+            </Output Format>
+            
+            <Output>
+            {output}
+            </Output>
+            
+            Now generate the final JSON array strictly following the above structure and rules.
             """
         else:
             template = """
@@ -167,32 +176,32 @@ def generate_llm_parser(chain_config):
 
 
 # Function to define prompt template
-def define_prompt_template(parsing_template_type):
+def define_parsing_prompt(parsing_template_type):
     # Define a question generation template using TemplateManager
-    template_manager = ParsingTemplateManager(
+    parsing_template_manager = ParsingTemplateManager(
         parsing_template_type=parsing_template_type
     )
-    template = template_manager.get_parsing_template()
+    parsing_template = parsing_template_manager.get_parsing_template()
 
     # Create a PromptTemplate object
-    prompt_template = PromptTemplate(input_variables=["output"], template=template)
-    print(prompt_template.input_variables)
+    parsing_prompt = PromptTemplate(
+        input_variables=["output"], template=parsing_template
+    )
 
-    return prompt_template
+    return parsing_prompt
 
 
 # Function to build LLM parser chain
-def build_parsing_chain(chain_config, parsing_template_type, output):
+def build_parsing_chain(chain_config, parsing_template_type):
     # Get LLM parser
     llm_parser = generate_llm_parser(chain_config)
     # Get prompt template
-    prompt_template = define_prompt_template(parsing_template_type)
+    parsing_prompt = define_parsing_prompt(parsing_template_type)
 
     # Build LLM parser chain
-    parser = JsonOutputParser()
+    output_parser = JsonOutputParser()
     parser_chain = LLMChain(
-        llm=llm_parser, prompt=prompt_template, output_parser=parser
+        llm=llm_parser, prompt=parsing_prompt, output_parser=output_parser
     )
-    result = parser_chain.run(output)
 
-    return result
+    return parser_chain

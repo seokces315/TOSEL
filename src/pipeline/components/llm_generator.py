@@ -75,10 +75,10 @@ def generate_llm_generator(chain_config):
 # Function to define prompt template
 def define_generation_prompt(generation_template_type, prompt, example):
     # Define a question generation template using TemplateManager
-    template_manager = GenerationTemplateManager(
+    generation_template_manager = GenerationTemplateManager(
         generation_template_type=generation_template_type
     )
-    generation_template = template_manager.get_generation_template(
+    generation_template = generation_template_manager.get_generation_template(
         prompt=prompt, example=example
     )
 

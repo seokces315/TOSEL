@@ -5,15 +5,13 @@ from loaders.example_loader import load_example
 
 from utils.config import ChainConfig, GeneratorConfig, ParserConfig
 
-from pipeline.base_chain import build_complete_chain
+from pipeline.base_chain import build_complete_chain, build_objects_from_schema
 
 import warnings
 
 warnings.filterwarnings(action="ignore")
 
 import time
-
-import json
 
 
 def main(args):
@@ -41,15 +39,16 @@ def main(args):
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
-    complete_chain = build_complete_chain(
+    output, complete_chain = build_complete_chain(
         chain_config, generation_template_type, prompt, example, parsing_template_type
     )
-    # print(complete_chain)
-    print(json.dumps(complete_chain, indent=2, ensure_ascii=False))
+    result = complete_chain.invoke({"output": output})
+    item_list = build_objects_from_schema(result=result["text"])
 
     # Print execution time
     end_time = time.time()
     elapsed = end_time - start_time
+    print()
     print(f"\nElapsed time: {elapsed:.2f}초")
 
 
