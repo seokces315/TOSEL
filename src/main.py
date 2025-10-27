@@ -41,10 +41,17 @@ def main(args):
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
+
+    n_problem = f"{comprehension_type}_{problem_type}_{level}"
     complete_chain = build_complete_chain(
-        chain_config, generation_template_type, prompt, example, parsing_template_type
+        chain_config,
+        generation_template_type,
+        prompt,
+        example,
+        parsing_template_type,
+        n_problem,
     )
-    # print(complete_chain)
+
     print(json.dumps(complete_chain, indent=2, ensure_ascii=False))
 
     # Print execution time
