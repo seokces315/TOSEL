@@ -2,3 +2,6 @@
 __pycache__
 log/
 output/
+problem_save/
+save/
+src/run_all.py
