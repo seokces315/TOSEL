@@ -167,9 +167,11 @@ def generate_llm_parser(chain_config):
 
 
 # Function to define prompt template
-def define_prompt_template(parsing_type):
+def define_prompt_template(parsing_template_type):
     # Define a question generation template using TemplateManager
-    template_manager = ParsingTemplateManager(parsing_type=parsing_type)
+    template_manager = ParsingTemplateManager(
+        parsing_template_type=parsing_template_type
+    )
     template = template_manager.get_parsing_template()
 
     # Create a PromptTemplate object
@@ -180,11 +182,11 @@ def define_prompt_template(parsing_type):
 
 
 # Function to build LLM parser chain
-def build_parsing_chain(chain_config, parsing_type, output):
+def build_parsing_chain(chain_config, parsing_template_type, output):
     # Get LLM parser
     llm_parser = generate_llm_parser(chain_config)
     # Get prompt template
-    prompt_template = define_prompt_template(parsing_type)
+    prompt_template = define_prompt_template(parsing_template_type)
 
     # Build LLM parser chain
     parser = JsonOutputParser()

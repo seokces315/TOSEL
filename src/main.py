@@ -44,8 +44,8 @@ def main(args):
     complete_chain = build_complete_chain(
         chain_config, generation_template_type, prompt, example, parsing_template_type
     )
-    print(complete_chain)
-    # print(json.dumps(complete_chain, indent=2, ensure_ascii=False))
+    # print(complete_chain)
+    print(json.dumps(complete_chain, indent=2, ensure_ascii=False))
 
     # Print execution time
     end_time = time.time()

@@ -15,9 +15,9 @@ def build_complete_chain(
     items = generator_chain.invoke({})
     items_text = items.get("text")
 
-    return items_text
+    # return items_text
 
     # # Get LLM parser chain - 2nd chain
-    # parser_chain = build_parsing_chain(chain_config, template_type, items_text)
+    parser_chain = build_parsing_chain(chain_config, parsing_template_type, items_text)
 
-    # return parser_chain
+    return parser_chain
