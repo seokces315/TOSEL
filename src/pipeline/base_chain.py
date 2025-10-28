@@ -1,6 +1,5 @@
 from .components.llm_generator import build_generator_chain
 from .components.llm_parser import build_parsing_chain
-from pathlib import Path
 
 from .schema import Content, Material, Ask, Choice, Item
 
@@ -12,7 +11,6 @@ def build_complete_chain(
     prompt,
     example,
     parsing_template_type,
-    n_problem,
 ):
     # Get LLM generator chain - 1st chain
     generator_chain = build_generator_chain(
@@ -38,13 +36,15 @@ def build_objects_from_schema(result):
     # For loop
     for res in result:
         # Generate materials
-        materials = [
-            Material(content=Content(text=mat["content"]["text"]), index=j)
-            for j, mat in enumerate(res["materials"])
-        ]
+        if res.get("materials"):
+            materials = [
+                Material(content=Content(text=mat["content"]["text"]), index=j)
+                for j, mat in enumerate(res["materials"])
+            ]
 
         # Generate ask
-        ask = Ask(text=res["ask"]["text"])
+        if res.get("ask"):
+            ask = Ask(text=res["ask"]["text"])
 
         # Generate choices
         choices = [
