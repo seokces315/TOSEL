@@ -25,9 +25,9 @@ class Choice(BaseModel):
 
 
 class Item(BaseModel):
-    materials: List[Material] = Field(default_factory=list)
-    ask: Ask = Field(default_factory=Ask)
-    choices: List[Choice] = Field(default_factory=list)
+    materials: List[Material]
+    ask: Optional[Ask]
+    choices: List[Choice]
     tags: List[Any] = Field(default_factory=list)
     difficulty: Optional[int] = None
     accuracy: Optional[int] = None

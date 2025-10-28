@@ -49,7 +49,6 @@ def main(args):
 
     # Print the final results
     print()
-    # print(json.dumps(result["text"], indent=2, ensure_ascii=False))
     print(
         json.dumps(
             [item.model_dump() for item in item_list], indent=2, ensure_ascii=False
@@ -60,9 +59,7 @@ def main(args):
     end_time = time.time()
     elapsed = end_time - start_time
     print()
-    print()
     print("==============================")
-    print()
     print()
     print(f"Elapsed time: {elapsed:.2f}초")
 

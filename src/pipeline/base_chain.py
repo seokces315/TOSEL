@@ -35,6 +35,9 @@ def build_objects_from_schema(result):
 
     # For loop
     for res in result:
+        materials = []
+        ask = None
+
         # Generate materials
         if res.get("materials"):
             materials = [
