@@ -41,8 +41,14 @@ def main(args):
         generator=GeneratorConfig(model_id=model_id),
         parser=ParserConfig(model_id=model_id),
     )
+    n_problem = f"{comprehension_type}_{problem_type}_{level}"
     output, complete_chain = build_complete_chain(
-        chain_config, generation_template_type, prompt, example, parsing_template_type
+        chain_config,
+        generation_template_type,
+        prompt,
+        example,
+        parsing_template_type,
+        n_problem,
     )
     result = complete_chain.invoke({"output": output})
     item_list = build_objects_from_schema(result=result["text"])

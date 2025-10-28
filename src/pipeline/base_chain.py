@@ -1,12 +1,18 @@
 from .components.llm_generator import build_generator_chain
 from .components.llm_parser import build_parsing_chain
+from pathlib import Path
 
 from .schema import Content, Material, Ask, Choice, Item
 
 
 # Function to build the complete LLM pipeline (Generator + Parser)
 def build_complete_chain(
-    chain_config, generation_template_type, prompt, example, parsing_template_type
+    chain_config,
+    generation_template_type,
+    prompt,
+    example,
+    parsing_template_type,
+    n_problem,
 ):
     # Get LLM generator chain - 1st chain
     generator_chain = build_generator_chain(

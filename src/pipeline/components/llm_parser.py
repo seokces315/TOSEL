@@ -87,77 +87,193 @@ class ParsingTemplateManager:
             """
         else:
             template = """
-            You are a helpful English test generator.
+                You are an assistant that formats English test data into strict JSON.
 
-            <Instruction>
-            You will be given an Instruction (what kind of question to generate) and an Example (sample input format).
-            Your job is to analyze the Example and produce test items in JSON.
+                <Instruction>
+                You will be given raw test text that may contain one or more questions
+                (e.g. "Question1", "Question2", etc.).
 
-            Important:
-            - A single Example may actually contain multiple questions (Question1, Question2, ...).
-            - You MUST return one JSON object per question.
-            - Output all JSON objects in a Python-style list [ ... ] with commas between them.
-            - Do NOT include any text outside the list.
+                Your job:
+                - Do NOT create any new content.
+                - Extract the question text, answer choices, and any supporting material from the raw text.
+                - Return a JSON array in which each element is one question object.
 
-            <JSON Schema>
-            Each JSON object must follow this structure exactly:
+                IMPORTANT:
+                - The final response MUST be a valid JSON array: [ {{ ... }}, {{ ... }}, ... ]
+                - Do NOT include any text before or after the array.
+                - Use double quotes for all strings.
+                - Use \\n for line breaks inside text values.
+                - Remove leading labels like "A.", "B.", "C." from choices.
+                - Omit any key (including top-level keys) that would be empty or unknown.
+                - Do not invent difficulty, accuracy, createdUserId, tags, or isCorrect if they are not actually present.
 
-            {{
+                <Per-Question Object Shape>
+                Each question should be represented (when all data exists) in this structure:
+
+                {{
+                "choices": [
+                    {{
+                    "content": {{
+                        "type": "T",
+                        "text": "a boy playing with a ball",
+                        "style": {{
+                        "textStyle": "string"
+                        }}
+                    }},
+                    "index": 0,
+                    "isCorrect": true
+                    }}
+                ],
+                "materials": [
+                    {{
+                    "content": {{
+                        "type": "T",
+                        "text": "string",
+                        "style": {{
+                        "textStyle": "string"
+                        }}
+                    }},
+                    "index": 0
+                    }}
+                ],
+                "tags": [
+                    {{
+                    "tagCode": "string"
+                    }}
+                ],
                 "ask": {{
-                    "question": "<string>"
+                    "type": "T",
+                    "text": "string",
+                    "style": {{
+                    "textStyle": "string"
+                    }}
                 }},
-                "choice": {{
-                    "options": [
-                        "A. <option text>",
-                        "B. <option text>",
-                        "C. <option text>",
-                        "D. <option text>",
-                    ]
-                }},
-                "material": {{
-                    "content": "<string>"
+                "difficulty": 0,
+                "accuracy": 0,
+                "createdUserId": 0
                 }}
-            }}
 
-            Field rules:
-            1. "ask.question"
-                - The actual question text (ex: "Choose the most suitable word for blank [A].").
-                - If the original data uses "Question:" or "Question1:", use that question text.
+                Now follow the detailed rules below for how to build each field:
 
-            2. "choice.options"
-                - A list of four answer choices in order.
-                - You MUST preserve the labels (A., B., C., D.) if they exist.
-                - If the source uses A1/B1 or A2/B2 style, normalize them to "A.", "B.", "C.", "D." in the output.
+                1. "ask"
+                - "ask.text" is the question text.
+                - Extract it from lines like "Question:", "Question1:", "What does the woman mean?", etc.
+                - Include only the question prompt itself, not the answer options.
+                - Always include:
+                "type": "T"
+                "style": {{ "textStyle": "string" }}
+                - If there is no question text, omit the entire "ask" object.
 
-            3. "material.content"
-                - Everything that is NOT the question text or the options, but is needed to solve the question.
-                - This can include any/all supporting info such as:
-                    - Passage
-                    - Summary
-                    - Dialogue
-                    - Descriptions
-                    - Context setup before "Question:"
-                - Keep line breaks using "\\n".
-                - If there is no extra supporting text, set "content" to "" (empty string).
+                2. "choices"
+                - Extract all answer choices from lines beginning with labels such as "A.", "B.", "C.", "D.", etc.
+                - For each choice:
+                - Remove the leading label ("A.", "B.", ...). The remaining text becomes "content.text".
+                - Create an object:
+                {{
+                    "content": {{
+                    "type": "T",
+                    "text": "<choice text without the label>",
+                    "style": {{
+                        "textStyle": "string"
+                    }}
+                    }},
+                    "index": <0-based index in the order they appeared>,
+                    "isCorrect": true
+                }}
+                - Index starts at 0 and increases by 1 in display order.
+                - Example:
+                    A. a boy playing with a ball
+                    B. a boy reading a book
+                    C. a boy drawing a picture
 
-            4. If multiple questions (Question1, Question2, ...) share the same material (same Passage / Summary / Dialogue), include that same material content again in each JSON object.
+                    becomes:
+                    "choices": [
+                    {{
+                        "content": {{ "type": "T", "text": "a boy playing with a ball", "style": {{ "textStyle": "string" }} }},
+                        "index": 0,
+                        "isCorrect": true
+                    }},
+                    {{
+                        "content": {{ "type": "T", "text": "a boy reading a book", "style": {{ "textStyle": "string" }} }},
+                        "index": 1,
+                        "isCorrect": true
+                    }},
+                    {{
+                        "content": {{ "type": "T", "text": "a boy drawing a picture", "style": {{ "textStyle": "string" }} }},
+                        "index": 2,
+                        "isCorrect": true
+                    }}
+                    ]
+                - If a choice label exists but the text after it is empty (e.g. "D." only), do NOT include that choice at all.
+                - "isCorrect":
+                - If the raw text explicitly indicates which option is correct (e.g. "Answer: B"), then:
+                    - Mark that option's "isCorrect": true.
+                    - For all other options in that same question:
+                    - You MAY include "isCorrect": false.
+                - If no correct answer information is given in the raw text:
+                    - Include the choices normally, but OMIT "isCorrect" for every choice.
+                - If there are no valid choices at all, omit the "choices" key entirely.
 
-            5. Do NOT add any explanations, reasoning steps, or answers. Only structure and text from the provided example.
+                3. "materials"
+                - "materials" is for any supporting text that is needed to answer the question but is NOT itself the question sentence and NOT itself any choice.
+                - Examples: passages, summaries, dialogues, instructions, descriptions of a picture, context paragraphs, etc.
+                - Preserve wording exactly from the input.
+                - Preserve line breaks using \\n.
+                - Represent each block as:
+                {{
+                    "content": {{
+                    "type": "T",
+                    "text": "<supporting text>",
+                    "style": {{
+                        "textStyle": "string"
+                    }}
+                    }},
+                    "index": <0-based index of this supporting block>
+                }}
+                - If multiple distinct blocks exist (for example, "Passage:" and separately "Summary:"), include them as index 0, 1, 2, ...
+                - If there is no supporting material, omit "materials" entirely.
 
-            <Output Format Rules>
-            - Your final response MUST be a single JSON array (list) of one or more question objects.
-            - Do NOT wrap the array in any additional keys.
-            - Do NOT include comments or prose outside the array.
-            - The output must be valid JSON (double quotes, proper commas, etc.).
+                4. "tags"
+                - Only include "tags" if the raw text contains metadata that clearly maps to a tag category or code.
+                - Format:
+                "tags": [
+                    {{ "tagCode": "<string>" }}
+                ]
+                - If nothing like that exists, omit "tags".
 
-            </Instruction>
+                5. "difficulty", "accuracy", "createdUserId"
+                - If numbers for difficulty, accuracy, or createdUserId are explicitly provided in the raw text, include them.
+                - Otherwise, omit these keys. Do NOT guess or default them to 0.
 
-            <Output>
-            {output}
-            </Output>
+                6. Field omission rule (critical)
+                - If a field would be empty, completely omit that field.
+                - Examples:
+                - No choices? Omit "choices".
+                - No materials? Omit "materials".
+                - No tags? Omit "tags".
+                - No difficulty given? Omit "difficulty".
+                - No correct answer given? Omit "isCorrect" from every choice object.
+                - Never output empty strings "" or null just to preserve the shape.
 
-            Now generate the output JSON array based on the Example.
-            """
+                7. Multiple questions
+                - If the raw input includes multiple questions (Question1, Question2, ...), you MUST output multiple objects.
+                - Final output must be a JSON array of all question objects:
+                [
+                    {{ ...question 1 object... }},
+                    {{ ...question 2 object... }},
+                    {{ ...question 3 object... }}
+                ]
+                - If several questions share the same passage / context / story, you MUST repeat that same supporting text in "materials" for each question object.
+
+                <Raw Input>
+                {output}
+                </Raw Input>
+
+                Now:
+                1. Extract every question.
+                2. Build one JSON object per question following ALL rules above.
+                3. Return a single JSON array containing those objects, and nothing else.
+                """
 
         return template
 
