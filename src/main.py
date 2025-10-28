@@ -13,6 +13,8 @@ warnings.filterwarnings(action="ignore")
 
 import time
 
+import json
+
 
 def main(args):
     # Measure execution time
@@ -23,10 +25,10 @@ def main(args):
     problem_type = args.problem_type
     level = args.level
     prompt_path = (
-        f"../bank/prompt/{comprehension_type}_{problem_type}_{level}_prompt.txt"
+        f"./bank/prompt/{comprehension_type}_{problem_type}_{level}_prompt.txt"
     )
     example_path = (
-        f"../bank/example/{comprehension_type}_{problem_type}_{level}_example.txt"
+        f"./bank/example/{comprehension_type}_{problem_type}_{level}_example.txt"
     )
     prompt = load_prompt(prompt_path=prompt_path)
     example = load_example(example_path=example_path)
@@ -45,11 +47,23 @@ def main(args):
     result = complete_chain.invoke({"output": output})
     item_list = build_objects_from_schema(result=result["text"])
 
+    # Print the final results
+    print()
+    print(
+        json.dumps(
+            [item.model_dump() for item in item_list], indent=2, ensure_ascii=False
+        )
+    )
+
     # Print execution time
     end_time = time.time()
     elapsed = end_time - start_time
     print()
-    print(f"\nElapsed time: {elapsed:.2f}초")
+    print()
+    print("==============================")
+    print()
+    print()
+    print(f"Elapsed time: {elapsed:.2f}초")
 
 
 if __name__ == "__main__":
