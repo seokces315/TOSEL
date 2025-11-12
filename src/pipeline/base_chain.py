@@ -20,7 +20,7 @@ def build_complete_chain(
     # Execute the generator chain to generate a response
     items = generator_chain.invoke({})
     items_text = items.get("text")
-    print(items_text)
+    print("items_text", items_text)
 
     # Get LLM parser chain - 2nd chain
     parser_chain = build_parsing_chain(chain_config, parsing_template_type)
