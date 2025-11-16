@@ -25,10 +25,10 @@ def main(args):
     problem_type = args.problem_type
     level = args.level
     prompt_path = (
-        f"../bank/prompt/{comprehension_type}_{problem_type}_{level}_prompt.txt"
+        f"./bank/prompt/{comprehension_type}_{problem_type}_{level}_prompt.txt"
     )
     example_path = (
-        f"../bank/example/{comprehension_type}_{problem_type}_{level}_example.txt"
+        f"./bank/example/{comprehension_type}_{problem_type}_{level}_example.txt"
     )
     prompt = load_prompt(prompt_path=prompt_path)
     example = load_example(example_path=example_path)
