@@ -51,7 +51,7 @@ class ParsingTemplateManager:
 
         Return ONLY the final JSON array.
         """
-
+        
         return template
 
 
